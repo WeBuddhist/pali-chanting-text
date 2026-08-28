@@ -1,0 +1,15 @@
+# Obsidian workspace state (per-machine, not shared)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Plugin data files (per-machine credentials / state)
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/gemini-scribe/data.json
+
+# System junk
+.trash/
+.DS_Store
+
+# Claude Code worktrees (local only)
+.claude/worktrees/
