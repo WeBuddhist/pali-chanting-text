@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Pañcasīla YācanāOkāsa, ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi.Anuggahaṃ katvā sīlaṃ detha me bhante.Dutiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi.Anuggahaṃ katvā sīlaṃ detha me bhante.Tatiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi.Anuggahaṃ katvā sīlaṃ detha me bhante.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 16
+          }
+        ],
+        "type": "title",
+        "reference": "0"
+      },
+      {
+        "lines": [
+          {
+            "start": 16,
+            "end": 70
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 70,
+            "end": 108
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 108,
+            "end": 165
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 165,
+            "end": 203
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 203,
+            "end": 260
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 260,
+            "end": 298
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      }
+    ]
+  }
+}

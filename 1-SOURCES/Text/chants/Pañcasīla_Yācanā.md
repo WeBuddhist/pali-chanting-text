@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: Jr5fMpaq4yppETp6KweJ6
+edition_id: TTWKts6l4WCfpLs1BBxU7
+toc_id: UyeBkDUbiOqGwPTK1kj9V
 ---
 
 # Pañcasīla Yācanā ^0
