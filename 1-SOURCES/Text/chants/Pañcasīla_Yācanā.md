@@ -9,22 +9,19 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: Jr5fMpaq4yppETp6KweJ6
-edition_id: TTWKts6l4WCfpLs1BBxU7
-toc_id: UyeBkDUbiOqGwPTK1kj9V
+text_id: jPWTZkWkaQBAkmOF5kUzz
+edition_id: igtJv4yldSPEQsd6fbdOp
+toc_id: 4HP2ridygQtykFxobMvf2
 ---
 
 # Pañcasīla Yācanā ^0
 
-Okāsa, ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi. ^0-1
+Okāsa, ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi.
+Anuggahaṃ katvā sīlaṃ detha me bhante. ^0-1
 
+Dutiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi. 
 Anuggahaṃ katvā sīlaṃ detha me bhante. ^0-2
 
-Dutiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi. ^0-3
-
-Anuggahaṃ katvā sīlaṃ detha me bhante. ^0-4
-
-Tatiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi. ^0-5
-
-Anuggahaṃ katvā sīlaṃ detha me bhante. ^0-6
+Tatiyampi ahaṃ bhante, tisaraṇena saha pañcasīlaṃ yācāmi.
+Anuggahaṃ katvā sīlaṃ detha me bhante. ^0-3
 
