@@ -38,6 +38,26 @@ def _wylie_to_unicode(text, lang_tag):
     return text
 
 
+def _apply_bold(text, as_tag=True):
+    """Whole-span bold: ``**X**`` -> ``<b>X</b>``.
+
+    Only fires when the text both starts and ends with ``**``; anything else
+    is returned untouched. Applied before character offsets are computed, so
+    the segmentation spans always describe the text as emitted.
+
+    ``as_tag=False`` strips the markers without emitting a tag — used for
+    heading text, which becomes a plain TOC label rather than content.
+    """
+    if not text:
+        return text
+    stripped = text.strip()
+    if len(stripped) > 4 and stripped.startswith("**") and stripped.endswith("**"):
+        inner = stripped[2:-2]
+        if inner.strip():
+            return "<b>" + inner + "</b>" if as_tag else inner
+    return text
+
+
 def _is_empty(value):
     if value is None:
         return True
@@ -195,6 +215,7 @@ def extract_text_input(lint_path):
 def _build_content_and_segmentation(blocks, doc_default):
     parts = []
     seg_list = []
+    heading_list = []
     pos = 0
 
     for block_num, block in enumerate(blocks, start=1):
@@ -214,17 +235,24 @@ def _build_content_and_segmentation(blocks, doc_default):
         ref_no_caret = ref[1:] if ref.startswith("^") else ref
 
         if is_header:
-            text = raw_lines[0].lstrip('#').strip()
+            # Headings are structural only — their text is NOT emitted into
+            # the edition content. Record the title, its level, and the
+            # content offset at which this heading's section begins, for
+            # build_toc to consume.
+            raw_head = raw_lines[0].lstrip()
+            level = len(raw_head) - len(raw_head.lstrip('#'))
+            text = raw_head.lstrip('#').strip()
             ref_idx = text.rfind(ref)
             if ref_idx != -1:
                 text = text[:ref_idx].rstrip()
             if not text:
                 continue
-            start = pos
-            parts.append(text)
-            pos += len(text)
-            line_spans = [{"start": start, "end": start + len(text)}]
-            seg_list.append({"lines": line_spans, "type": "title", "reference": ref_no_caret})
+            heading_list.append({
+                "reference": ref_no_caret,
+                "title": _apply_bold(text, as_tag=False),
+                "level": level or 1,
+                "content_start": pos,
+            })
         else:
             line_spans = []
             for raw_line in content_lines:
@@ -238,6 +266,7 @@ def _build_content_and_segmentation(blocks, doc_default):
                     text = text[:m.start()].rstrip()
                 if not text:
                     continue
+                text = _apply_bold(text)
                 start = pos
                 parts.append(text)
                 pos += len(text)
@@ -245,7 +274,7 @@ def _build_content_and_segmentation(blocks, doc_default):
             seg_type = _infer_segment_type(ref_no_caret, doc_default)
             seg_list.append({"lines": line_spans, "type": seg_type, "reference": ref_no_caret})
 
-    return "".join(parts), seg_list
+    return "".join(parts), seg_list, heading_list
 
 
 def build_edition(source_path, lint_path):
@@ -268,7 +297,9 @@ def build_edition(source_path, lint_path):
     else:
         doc_default = "paragraph" if fm.get("commentary_of") else "verse"
 
-    content_str, seg_list = _build_content_and_segmentation(blocks, doc_default)
+    content_str, seg_list, heading_list = _build_content_and_segmentation(
+        blocks, doc_default
+    )
 
     edition_type = fm.get("edition_type", "critical")
     source_url = (
@@ -287,7 +318,11 @@ def build_edition(source_path, lint_path):
     out_path = OUTPUT_DIR / f"{stem}.edition.json"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    return out_path, out
+    # Headings are not part of the edition payload — they are handed to
+    # build_toc in memory only, never written to <stem>.edition.json.
+    result = dict(out)
+    result["headings"] = heading_list
+    return out_path, result
 
 
 # ---------------------------------------------------------------------------
@@ -298,25 +333,20 @@ def build_toc(source_path, edition_result):
     fm, body = _read_source(source_path)
     lang_tag = fm.get("lang_tag") or "en"
 
-    content = edition_result["content"]
-    segments = edition_result["segmentation"]["segments"]
-    content_len = len(content)
+    content_len = len(edition_result["content"])
+    headings = edition_result.get("headings") or []
     header_levels = _extract_header_levels(body)
 
     title_nodes = []
-    for seg in segments:
-        if seg.get("type") != "title":
-            continue
-        ref = seg.get("reference", "")
-        level = header_levels.get(ref, 1)
-        char_start = seg["lines"][0]["start"]
-        char_end = seg["lines"][0]["end"]
-        title_text = _wylie_to_unicode(content[char_start:char_end], lang_tag)
+    for heading in headings:
+        ref = heading.get("reference", "")
+        level = header_levels.get(ref, heading.get("level", 1))
+        # Heading text no longer lives inside the edition content, so a
+        # section's span starts where its content starts.
         title_nodes.append({
             "level": level,
-            "title_char_start": char_start,
-            "span_start": char_end,
-            "title": title_text,
+            "span_start": heading["content_start"],
+            "title": _wylie_to_unicode(heading.get("title", ""), lang_tag),
             "ref": ref,
         })
 
@@ -324,7 +354,7 @@ def build_toc(source_path, edition_result):
         span_end = content_len
         for j in range(i + 1, len(title_nodes)):
             if title_nodes[j]["level"] <= node["level"]:
-                span_end = title_nodes[j]["title_char_start"]
+                span_end = title_nodes[j]["span_start"]
                 break
         node["span_end"] = span_end
 
@@ -457,6 +487,8 @@ def main(argv=None):
         print(f"  segments         : {len(segs)}")
         for t, n in sorted(by_type.items()):
             print(f"    {t}: {n}")
+        n_head = len(edition_result.get("headings") or [])
+        print(f"  headings (TOC)   : {n_head}")
     except Exception as exc:
         print(f"ERROR edition: {exc}", file=sys.stderr)
         had_error = True

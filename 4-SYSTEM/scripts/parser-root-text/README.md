@@ -8,7 +8,7 @@ Runs these functions from the source `.md` and its lint JSON:
 
 1. **extract_text_input** — strips null/empty fields from the lint JSON and writes a clean `text.json`
 2. **build_edition** — extracts content from the source `.md`, builds a segmented edition with character-level spans, writes `edition.json`
-3. **build_toc** — builds a nested table of contents from the edition's title segments, writes `toc.json`
+3. **build_toc** — builds a nested table of contents from the source's markdown headings, writes `toc.json`
 4. **build_alignment** — for `translation` and `commentary` files only, extracts segment-to-segment alignment from Obsidian transclusion links (`![[...#^ref]]`), writes `alignment.json`
 
 ## Output
@@ -53,4 +53,6 @@ python3 4-SYSTEM\scripts\parser-root-text\parser.py "1-SOURCES\Text\BCAV08_SH_sk
 - Missing `alt_titles` is allowed (warning only)
 - Blocks without a reference marker (`^ref`) are skipped with a warning
 - Pure transclusion blocks (`![[...]]` only) are silently skipped — they are used for alignment, not content
+- Markdown headings (`#`, `##`, …) are **structural only** — their text is not written into the edition `content`. They carry the TOC: each section's span runs from the start of its own content to the start of the next heading at the same or a shallower level
+- A line that both starts and ends with `**` is emitted as `<b>…</b>` in the edition content. Heading text has the `**` markers stripped instead, so TOC titles stay plain
 - Tibetan TOC titles in Wylie are auto-converted to Unicode
