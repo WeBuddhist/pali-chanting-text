@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "source": "C:\\Users\\geshe lobzang tseten\\repos\\pali-chanting-text\\1-SOURCES\\Text\\chants\\Pañcasīla_Yācanā.md",
-  "validated_at": "2026-09-16T05:41:38.459722+00:00",
+  "source": "/sessions/rcw-01piugyxn7jxzyechvvznqsq/mnt/pali-chanting-text/1-SOURCES/Translations/Pañcasīla_Yācanā/पञ्चशील याचना_hi.md",
+  "validated_at": "2026-09-17T01:26:26.417508+00:00",
   "notes": [
     "wiki: not set (optional)",
     "date: not set (optional)",
     "commentary_of: not set (optional)",
-    "translation_of: not set (optional)",
+    "root_text: '1-SOURCES/Text/chants/Pañcasīla_Yācanā.md'",
     "tag_ids: not set (optional)",
     "source: source = 'https://webuddhist.com/'",
     "toc: 1 headers found"
@@ -19,16 +19,16 @@
     "wiki": null,
     "date": null,
     "title": {
-      "pi": "Pañcasīla Yācanā"
+      "hi": "पञ्चशील याचना"
     },
     "alt_titles": [
       {
-        "pi": "पञ्चसील याचना"
+        "hi": "Pañcasīla Yācanā"
       }
     ],
-    "language": "pi",
+    "language": "hi",
     "commentary_of": null,
-    "translation_of": null,
+    "translation_of": "jPWTZkWkaQBAkmOF5kUzz",
     "category_id": "LCorCb2K98p3TICt3UCDm",
     "license": "public",
     "contributions": null,
