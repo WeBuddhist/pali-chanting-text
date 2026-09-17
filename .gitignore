@@ -13,3 +13,7 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Python bytecode caches (scripts/)
+__pycache__/
+*.pyc
