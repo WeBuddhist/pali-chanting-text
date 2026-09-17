@@ -38,6 +38,17 @@ def _wylie_to_unicode(text, lang_tag):
     return text
 
 
+def _out_path(stem, kind):
+    """Output path for one payload: ``output/<stem>/<stem>.<kind>.json``.
+
+    Every payload for a given text lands in its own folder, so a text's
+    four files stay together instead of interleaving in a flat directory.
+    """
+    out_dir = OUTPUT_DIR / stem
+    out_dir.mkdir(parents=True, exist_ok=True)
+    return out_dir / f"{stem}.{kind}.json"
+
+
 def _apply_bold(text, as_tag=True):
     """Whole-span bold: ``**X**`` -> ``<b>X</b>``.
 
@@ -151,7 +162,7 @@ def _infer_segment_type(ref_no_caret, doc_default):
 # Function 1: extract text_input
 # ---------------------------------------------------------------------------
 
-def extract_text_input(lint_path):
+def extract_text_input(lint_path, out_stem=None):
     data = json.loads(
         lint_path.read_bytes().replace(b'\x00', b'').decode("utf-8", errors="replace")
     )
@@ -202,8 +213,9 @@ def extract_text_input(lint_path):
     stem = lint_path.stem
     if stem.endswith(".lint"):
         stem = stem[:-len(".lint")]
-    out_path = OUTPUT_DIR / f"{stem}.text.json"
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    # Prefer the source .md stem so every payload shares one output folder
+    # even when the lint file was renamed.
+    out_path = _out_path(out_stem or stem, "text")
     out_path.write_text(json.dumps(clean, ensure_ascii=False, indent=2), encoding="utf-8")
     return out_path
 
@@ -314,9 +326,7 @@ def build_edition(source_path, lint_path):
         "segmentation": {"segments": seg_list},
     }
 
-    stem = source_path.stem
-    out_path = OUTPUT_DIR / f"{stem}.edition.json"
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = _out_path(source_path.stem, "edition")
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     # Headings are not part of the edition payload — they are handed to
     # build_toc in memory only, never written to <stem>.edition.json.
@@ -385,9 +395,7 @@ def build_toc(source_path, edition_result):
 
 
 
-    stem = source_path.stem
-    out_path = OUTPUT_DIR / f"{stem}.toc.json"
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = _out_path(source_path.stem, "toc")
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     return out_path, out
 
@@ -430,9 +438,7 @@ def build_alignment(source_path):
             pending_targets = []
 
     out = {"alignments": alignments}
-    stem = source_path.stem
-    out_path = OUTPUT_DIR / f"{stem}.alignment.json"
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = _out_path(source_path.stem, "alignment")
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     return out_path, out
 
@@ -468,7 +474,7 @@ def main(argv=None):
         sys.exit(1)
 
     try:
-        text_out = extract_text_input(lint_path)
+        text_out = extract_text_input(lint_path, source_path.stem)
         print(f"OK    {lint_path}  ->  {text_out}")
     except Exception as exc:
         print(f"ERROR text_input: {exc}", file=sys.stderr)

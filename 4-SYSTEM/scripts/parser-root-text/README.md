@@ -13,13 +13,19 @@ Runs these functions from the source `.md` and its lint JSON:
 
 ## Output
 
+One folder per text, named after the source file's stem:
+
 ```
 output/
-  <stem>.text.json        # clean text_input payload
-  <stem>.edition.json     # edition content + segmentation
-  <stem>.toc.json         # nested TOC with character spans
-  <stem>.alignment.json   # source↔target segment alignments (translations/commentaries only)
+  <stem>/
+    <stem>.text.json        # clean text_input payload
+    <stem>.edition.json     # edition content + segmentation
+    <stem>.toc.json         # nested TOC with character spans
+    <stem>.alignment.json   # source↔target segment alignments (translations/commentaries only)
 ```
+
+e.g. `output/तिसरण–पञ्चशील_hi/तिसरण–पञ्चशील_hi.edition.json`. The folder is
+created on demand and re-running overwrites that text's files in place.
 
 ## Alignment
 
