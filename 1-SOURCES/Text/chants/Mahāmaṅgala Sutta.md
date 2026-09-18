@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: VY1eZ4RHj7r59iXtAKJQS
+edition_id: SfLOKqHiV8Zes4hAr1OFZ
+toc_id: QbMDQiNIPkma3y95aR5B6
 ---
 
 # Mahāmaṅgala Sutta ^0

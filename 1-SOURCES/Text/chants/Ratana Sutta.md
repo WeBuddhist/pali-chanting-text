@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: fOHHu8xfep3MGWEyqr6LX
+edition_id: pzNwgbg69sgXB1etql029
+toc_id: D6sTKCkBxiRwmPKlhP62m
 ---
 
 # Ratana Sutta ^0

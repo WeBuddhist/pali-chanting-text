@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: Jg73w7ay3kxsunOzoL3ph
+edition_id: bZVn69PGTFceWAseMqnPL
+toc_id: kh0eMYzvnU5QiLSge6HWP
 ---
 
 # Sīvali Paritta ^0

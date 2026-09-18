@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: 1UCgBGDtXUjPQSMaevyzd
+edition_id: dE5CqopcL2UF4E8IRBV6t
+toc_id: srYZO0t2MxlBn5OUbr2NB
 ---
 
 # Khandha Paritta ^0

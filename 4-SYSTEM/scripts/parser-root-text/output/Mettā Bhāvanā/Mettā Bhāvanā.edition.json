@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Ahaṃ avero homi, abyāpajjo homi, anīgho homi, sukhī attānaṃ pariharāmi.Ahaṃ viya mayhaṃ ācariyupajjhāya mātāpitaro hitasattā majjhattikasattā verisattā averā hontu, abyāpajjā hontu, anīghā hontu, sukhī attānaṃ pariharantu, dukkhā muccantu, yathāladdhasampattito mā vigacchantu, kammassakā.Imasmiṃ vihāre, imasmiṃ gocaragāme, imasmiṃ nagare, imasmiṃ padese, imasmiṃ Jambudīpe, imasmiṃ Cakkavāḷe, imassarajanā sīmaṭṭhadevatā sabbe sattā averā hontu, abyāpajjā hontu, anīghā hontu, sukhī attānaṃ pariharantu, dukkhā muccantu, yathāladdhasampattito mā vigacchantu, kammassakā.Puratthimāya disāya, dakkhiṇāya disāya, pacchimāya disāya, uttarāya disāya, puratthimāya disāya anudisāya, dakkhiṇāya disāya anudisāya, pacchimāya disāya anudisāya, uttarāya disāya anudisāya, heṭṭhimāya disāya, uparimāya disāya sabbe sattā, sabbe pāṇā, sabbe bhūtā, sabbe puggalā, sabbe attabhāvapariyāpannā, sabbā itthiyo, sabbe purisā, sabbe ariyā, sabbe anariyā, sabbe devā, sabbe manussā, sabbe amanussā, sabbe vinipātikā averā hontu, abyāpajjā hontu, anīghā hontu, sukhī attānaṃ pariharantu, dukkhā muccantu, yathāladdhasampattito mā vigacchantu, kammassakā.Puratthimasmiṃ disābhāge, santi bhūtā mahiddhikā. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥1॥Dakkhiṇasmiṃ disābhāge, santi devā mahiddhikā. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥2॥Pacchimasmiṃ disābhāge, santi nāgā mahiddhikā. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥3॥Uttarāsmiṃ disābhāge, santi yakkhā mahiddhikā. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥4॥Puratthimena Dhātaraṭṭho, dakkhiṇena Virūḷhako. Pacchimena Virūpakkho, Kuvero uttaraṃ disaṃ. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥5॥Cattāro te mahārājā, lokapālā yasassino. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥6॥Ākāsaṭṭhā ca bhummaṭṭhā, devā nāgā mahiddhikā. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥7॥Iddhimanto ca ye devā, vasantā idha sāsane. Tepi maṃ anurakkhantu, ārogyena sukhena ca. ॥8॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 71
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 71,
+            "end": 289
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 289,
+            "end": 572
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 572,
+            "end": 1135
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 1135,
+            "end": 1232
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 1232,
+            "end": 1326
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 1326,
+            "end": 1420
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 1420,
+            "end": 1514
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 1514,
+            "end": 1654
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 1654,
+            "end": 1742
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 1742,
+            "end": 1836
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 1836,
+            "end": 1927
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      }
+    ]
+  }
+}

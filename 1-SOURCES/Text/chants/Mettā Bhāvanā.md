@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: Gc79CgTMfVEiv6xrp6CF8
+edition_id: C9dvqkgeGeNrE7Nd3wl02
+toc_id: QgyWC8FAclJyjAVDtKUVn
 ---
 
 # Mettā Bhāvanā ^0

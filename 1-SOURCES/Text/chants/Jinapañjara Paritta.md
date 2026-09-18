@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: IVycSTk6Ox2GWLsDwjWn5
+edition_id: BD1yy3X73uMvuIOZL5ihm
+toc_id: KCnVJiowQd65tXvgtea65
 ---
 
 # Jinapañjara Paritta ^0

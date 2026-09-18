@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: gegvZUWqD78zgQZ293CAf
+edition_id: XRPwF7fGegVUdJcINHS7H
+toc_id: 0HgO2DntCZhFl6SdEigLu
 ---
 
 # Paṭiccasamuppāda ^0

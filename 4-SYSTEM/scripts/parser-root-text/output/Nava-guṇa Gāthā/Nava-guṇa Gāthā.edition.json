@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Arahaṃ arahoti nāmena, arahaṃ pāpaṃ na kāraye.Arahattaphalaṃ patto, arahaṃ nāma te namo.Sammā-sambuddha ñāṇena, sammā-sambuddha desanā.Sammā-sambuddha lokasmiṃ, sammā-sambuddha te namo.Vijjā-caraṇa sampanno, tassa vijjā pakāsitā.Atītā-nāgā tuppanno, vijjā-caraṇa te namo.Sugato sugatatānaṃ, sugato sundarampi ca.Nibbānaṃ sugati yanti, sugato nāma te namo.Lokavidūti nāmena, atītā-nāgate vidū.Saṅkhāra sata mekāse, lokavidū nāma te namo.Anuttaro ñāṇasīlena, yo lokassa anuttaro.Anuttaro pūja lokasmiṃ, taṃ namassāmi anuttaro.Sārathī-sārathī devā, yo lokassa susārathī.Sārathī pūja lokasmiṃ, taṃ namassāmi sārathī.Deva-cakkava manussānaṃ, loke agga phala dadaṃ.Dadantaṃ damayantānaṃ, purisā jeṭṭha te namo.Bhagavā bhagavā yutto, bhaggaṃ kilesa vāhato.Bhaggaṃ saṃsāra muttāro, bhagavā nāma te namo.Sādhu! Sādhu! Sādhu!",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 46
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 46,
+            "end": 88
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 88,
+            "end": 135
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 135,
+            "end": 185
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 185,
+            "end": 229
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 229,
+            "end": 271
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 271,
+            "end": 312
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 312,
+            "end": 355
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 355,
+            "end": 392
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 392,
+            "end": 436
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 436,
+            "end": 477
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 477,
+            "end": 524
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 524,
+            "end": 567
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 567,
+            "end": 612
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 612,
+            "end": 659
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 659,
+            "end": 704
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 704,
+            "end": 749
+          }
+        ],
+        "type": "verse",
+        "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 749,
+            "end": 795
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 795,
+            "end": 815
+          }
+        ],
+        "type": "verse",
+        "reference": "0-19"
+      }
+    ]
+  }
+}

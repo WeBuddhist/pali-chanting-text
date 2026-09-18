@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: EFeYpFd2bbHScwhMEUJnb
+edition_id: xyvcvvOAEq9wmV8H7vq6C
+toc_id: NwwCdxAGDudLXHekLVLjN
 ---
 
 # Ratanattaya Vandanā ^0

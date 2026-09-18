@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: 8nnwbaWO4NxzDBTgyTpDR
+edition_id: A8NO5zg20PwiOSzpYMf42
+toc_id: KZb4wBzoW6Q5UweVdy9hA
 ---
 
 # Karaṇīya Mettā Sutta ^0

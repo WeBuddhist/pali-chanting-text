@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: ToZrLpkFXFlcVfRXDDVrk
+edition_id: 1q3VGcpvHwAlCSzdzpXfd
+toc_id: 2K4E8m4CeaMEwJ5a42mX2
 ---
 
 # Tirokuṭṭa Sutta ^0

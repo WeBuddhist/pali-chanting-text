@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: Tj2IIhQunEezdQQ49vXG4
+edition_id: 8nvXHepHzXrMJSfFwnNgY
+toc_id: ZmxCgy69LsLqwunDMD3Ov
 ---
 
 # Paṭṭhāna ^0

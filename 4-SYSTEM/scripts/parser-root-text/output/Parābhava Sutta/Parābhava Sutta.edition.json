@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Parābhavantaṃ purisaṃ, mayaṃ pucchāma Gotamaṃ.Bhagavantaṃ pucchāmāsaṃ, kiṃ parābhavato mukhaṃ?Suvijāno bhavaṃ hoti, durvijāno parābhavo.Dhammakāmo bhavaṃ hoti, dhammadesiṃ parābhavo.Iti hetaṃ vijānāma, paṭhamo so parābhavo.Dutiyaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Asantassa piyā honti, sante na kurute piyaṃ.Asataṃ dhammaṃ rocati, taṃ parābhavato mukhaṃ.Iti hetaṃ vijānāma, dutiyo so parābhavo.Tatiyaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Niddāsīlī sabhāsīlī, anuhaṭṭhā ca yo naro.Alaso kodhapaññāṇo, taṃ parābhavato mukhaṃ.Iti hetaṃ vijānāma, tatiyo so parābhavo.Catutthaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Yo mātaraṃ pitaraṃ vā, jiṇṇakaṃ gatayobbanaṃ.Pahasanto na bharati, te parābhavato mukhaṃ.Iti hetaṃ vijānāma, catuttho so parābhavo.Pañcamaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Yo brāhmaṇaṃ vā samaṇaṃ vā, ajjaṃ vā pi vaṇṇitaṃ.Musāvādena vañceti, taṃ parābhavato mukhaṃ.Iti hetaṃ vijānāma, pañcamo so parābhavo.Chaṭṭhaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Pahūtavitto puriso, sahirajjo samojano.Eko bhuñjati sādūni, taṃ parābhavato mukhaṃ.Iti hetaṃ vijānāma, chaṭṭhamo so parābhavo.Sattamaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Jātitthaddho dhanatthaddho, gotatthaddho ca yo naro.Saññātiṃ atimaññeti, taṃ parābhavato mukhaṃ.Iti hetaṃ vijānāma, sattamo so parābhavo.Aṭṭhamaṃ Bhagavā brūhi, kiṃ parābhavato mukhaṃ?Itidhutto surādhutto, akkhadhutto ca yo naro.Laddhaṃ laddhaṃ vināseti, taṃ parābhavato mukhaṃ.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 46
+          },
+          {
+            "start": 46,
+            "end": 94
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 94,
+            "end": 136
+          },
+          {
+            "start": 136,
+            "end": 182
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 182,
+            "end": 223
+          },
+          {
+            "start": 223,
+            "end": 269
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 269,
+            "end": 313
+          },
+          {
+            "start": 313,
+            "end": 359
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 359,
+            "end": 399
+          },
+          {
+            "start": 399,
+            "end": 445
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 445,
+            "end": 487
+          },
+          {
+            "start": 487,
+            "end": 530
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 530,
+            "end": 570
+          },
+          {
+            "start": 570,
+            "end": 618
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 618,
+            "end": 663
+          },
+          {
+            "start": 663,
+            "end": 707
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 707,
+            "end": 749
+          },
+          {
+            "start": 749,
+            "end": 796
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 796,
+            "end": 845
+          },
+          {
+            "start": 845,
+            "end": 888
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 888,
+            "end": 929
+          },
+          {
+            "start": 929,
+            "end": 976
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 976,
+            "end": 1015
+          },
+          {
+            "start": 1015,
+            "end": 1059
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 1059,
+            "end": 1102
+          },
+          {
+            "start": 1102,
+            "end": 1149
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 1149,
+            "end": 1201
+          },
+          {
+            "start": 1201,
+            "end": 1245
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 1245,
+            "end": 1286
+          },
+          {
+            "start": 1286,
+            "end": 1333
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 1333,
+            "end": 1378
+          },
+          {
+            "start": 1378,
+            "end": 1427
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      }
+    ]
+  }
+}

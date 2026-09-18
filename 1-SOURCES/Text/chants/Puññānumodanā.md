@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: sNZiwPC5ry6igFBXmkyb0
+edition_id: pLtYB2oKaVG3Wsd5cHL1l
+toc_id: JM2FQbxUM29z8DhJe1nhX
 ---
 
 # Puññānumodanā ^0

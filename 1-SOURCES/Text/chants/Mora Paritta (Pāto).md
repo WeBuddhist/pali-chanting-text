@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: BvBQVJBO3scGA7D7eeLsR
+edition_id: 66TDYMWp8y105FHJaTJgi
+toc_id: yToiIYc71W3QpaHIkkOUO
 ---
 
 # Mora Paritta (Pāto) ^0

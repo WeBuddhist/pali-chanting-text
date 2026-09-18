@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: en6G0g5RrnsHwW2lt6OgF
+edition_id: 5DcfI834YV1LPFRm8dQL7
+toc_id: 6bMnCeBo50Dh8M3ahNDGB
 ---
 
 # Salla Sutta ^0

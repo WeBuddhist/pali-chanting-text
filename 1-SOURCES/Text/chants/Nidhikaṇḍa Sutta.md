@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: okdm7WAZt1EmKvT59CIei
+edition_id: vwiwZfS0GxI5NFRzR2nwG
+toc_id: AqwcCTikb7oqhZ7BWeNMy
 ---
 
 # Nidhikaṇḍa Sutta ^0

@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: CVrI7fH1EM24r8H9SzYoP
+edition_id: VpJS1e5RmiHmmqwYktqDq
+toc_id: CTHj9J3GOdWSOS30i2Stv
 ---
 
 # pañcasīla sīlaṃ adhiṭṭhāmi ^0

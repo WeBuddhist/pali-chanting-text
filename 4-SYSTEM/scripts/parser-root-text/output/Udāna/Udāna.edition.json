@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Anekajātisaṃsāraṃ, sandhāvissaṃ anibbisaṃ.Gahakārakaṃ gavesanto, dukkhā jāti punappunaṃ.Gahakāraka diṭṭhosi, puna gehaṃ na kāhasi.Sabbā te phāsukā bhaggā, gahakūṭaṃ visaṅkhitaṃ.Visaṅkhāragataṃ cittaṃ, taṇhānaṃ khayam ajjhagā.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 42
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 42,
+            "end": 88
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 88,
+            "end": 130
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 130,
+            "end": 177
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 177,
+            "end": 225
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      }
+    ]
+  }
+}

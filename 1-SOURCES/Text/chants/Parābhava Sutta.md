@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: Gvu8LM2CRWhaGUFQC0BQH
+edition_id: 6If5xfx7XwUVAGmFq2OLl
+toc_id: MqCgQo7EOdVpgAB2skmBB
 ---
 
 # Parābhava Sutta ^0

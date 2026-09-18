@@ -1,5 +1,5 @@
 ---
-title: Mora Paritta (Sāyaṃ)
+title: Mora Paritta (Sāyaṃkālīna)
 alt_titles: मोर परित्त (सायंकालीन)
 language: Pali
 file_type: root-text
@@ -9,12 +9,12 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: DMCJtYZFZahYHMFgJABu2
+edition_id: nUZ9O9IpaKLqxpbmqPCCE
+toc_id: Q0E9w8qIk4ODyELaixnIs
 ---
 
-# Mora Paritta (Sāyaṃ) ^0
+# Mora Paritta (Sāyaṃkālīna) ^0
 
 Apetayaṃ cakkhumā ekarājā, ^0-1
 
