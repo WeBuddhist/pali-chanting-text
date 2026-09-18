@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: VcTwZL1PIesc1EnB4uzw3
+edition_id: OzUp70tsLLVDbWlR1F9zD
+toc_id: pmWjwHoLPWv1fNLxV5BM3
 ---
 
 # Dhammapālana Gāthā ^0

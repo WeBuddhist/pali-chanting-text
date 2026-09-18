@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: TPhRplU8DmAcbsSFxJUgN
+edition_id: fYBVuTuaLhrP8VMy1Ype5
+toc_id: GvhE30o5g3Ow2jCT8XlLt
 ---
 
 # Gilānapaccaya Pūjā ^0

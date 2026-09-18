@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: AIsyTpq5JtwJ78x8uT5GS
+edition_id: vYAMgZLQ9DEsAxxt3AgYp
+toc_id: zT0nCZBzr6UZk5iannqsn
 ---
 
 # Bojjhaṅga Sutta ^0

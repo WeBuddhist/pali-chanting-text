@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Sakala vijjaṃ vidhura jāṇaṃ, deva rūpaṃ sujīvaṃ.Vimalacakkhu gambhira ghoṃsaṃ, gaura vaṇṇaṃ sūkāyaṃ.Abhaya cittaṃ nibhaya kāmaṃ, sūrata dhammaṃ supemaṃ.Virata rajjaṃ sūjana netaṃ, bodhisattaṃ sarāmi.Bodhisattaṃ sarāmi, Bodhisattaṃ sarāmi.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 48
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 48,
+            "end": 100
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 100,
+            "end": 152
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 152,
+            "end": 199
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 199,
+            "end": 238
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      }
+    ]
+  }
+}
