@@ -1,6 +1,7 @@
 ---
-title: Bhāvanā (Sāyaṃ)
-alt_titles: भावना (सायं)
+title: Bhāvanā
+alt_titles:
+author: 
 language: Pali
 file_type: root-text
 lang_tag: pi
@@ -9,12 +10,12 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: JXhND3LnRTHt4KtnOXk2z
+edition_id: jmF4tXwwbZiHPzwg1oAik
+toc_id: uVuu89KKPlZ1WfcopoJpF
 ---
 
-# Bhāvanā (Sāyaṃ) ^0
+# Bhāvanā ^0
 
 Devo vassatu kālena, sassa-sampatti hetu ca. ^0-1
 

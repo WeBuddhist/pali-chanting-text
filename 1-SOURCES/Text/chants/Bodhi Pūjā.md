@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: ZAHffXYam27g9S6KrYA0l
+edition_id: VHKHOJcdZ9HBaZHEaMsdr
+toc_id: ypY4ecbJSIgAJZdSHQIEb
 ---
 
 # Bodhi Pūjā ^0

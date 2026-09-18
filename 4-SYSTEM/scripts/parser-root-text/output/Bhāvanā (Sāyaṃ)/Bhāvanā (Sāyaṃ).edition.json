@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Devo vassatu kālena, sassa-sampatti hetu ca.Phīto bhavatu loko ca, rājā bhavatu dhammiko.Imāya Buddha-pūjāya katāya suddha-cetasā,Ciraṃ tiṭṭhatu Saddhammo, loko hotu sukhī sadā.Imāya Dhamma-pūjāya katāya suddha-cetasā,Ciraṃ tiṭṭhatu Saddhammo, loko hotu sukhī sadā.Imāya Saṅgha-pūjāya katāya suddha-cetasā,Ciraṃ tiṭṭhatu Saddhammo, loko hotu sukhī sadā.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 44
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 44,
+            "end": 89
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 89,
+            "end": 130
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 130,
+            "end": 177
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 177,
+            "end": 218
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 218,
+            "end": 265
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 265,
+            "end": 306
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 306,
+            "end": 353
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      }
+    ]
+  }
+}

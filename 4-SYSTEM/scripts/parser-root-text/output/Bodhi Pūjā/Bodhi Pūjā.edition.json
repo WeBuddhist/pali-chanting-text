@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Namo tassa bhagavato arahato sammā sambuddhassa.Namo tassa bhagavato arahato sammā sambuddhassa.Namo tassa bhagavato arahato sammā sambuddhassa.Vandāmi cetiyaṃ sabbaṃ, sabbaṭhānesu patiṭṭhitaṃ.Sārīrika dhātu Mahābodhi, Buddharūpaṃ sakalaṃ sadā.Yas mūle nisinnovā, sabbāri vijayaṃ akā.Patto sabbaññutaṃ Satthā, vande taṃ Bodhi pādapaṃ.Ime ete Mahābodhi, Lokanāthena pūjitā.Ahaṃ pi te namassāmi, Bodhirājā namaṭṭhu te.Bodhirājā namaṭṭhu te, Bodhirājā namaṭṭhu te.Paṭhamaṃ Bodhi pallaṅkaṃ, dutiyañca animisaṃ.Tatiyaṃ caṅkamaṇaṃ seṭṭhaṃ, catutthaṃ ratanāgharaṃ.Pañcamaṃ Ajapālañca, Mucalindena chaṭṭhamaṃ.Sattamaṃ Rājāyatanaṃ, vande taṃ muni sevitaṃ.Mahādayo Mahāsatto, bodhimūle nisīdiya.Pañcamāre parājetvā, patto sambodhimuttamaṃ.Etena saccavajjena, sotthi me hotu sabbadā.Sabbe saṅkhārā aniccāti, yadā paññāya passati.Atha nibbindati dukkhe, esa maggo visuddhiyā.Sabbe saṅkhārā dukkhāti, yadā paññāya passati.Atha nibbindati dukkhe, esa maggo visuddhiyā.Sabbe dhammā anattāti, yadā paññāya passati.Atha nibbindati dukkhe, esa maggo visuddhiyā.Mahākāruṇiko Nātho, hitāya sabbapāṇinaṃ.Puretvā pāramī sabbā, patto sambodhimuttamaṃ.Etena saccavajjena, hotu me jayamaṅgalaṃ.Jayanto bodhiyā mūle, Sākyānaṃ Nandivaḍḍhano.Evaṃ mayaṃ jayo hotu, jayassu jayamaṅgalaṃ.Aparājita pallaṅke, sīse paṭhavi pokkhare.Abhiseke sabba Buddhānaṃ, aggapattō pamodati.Sunakkhattaṃ sumaṅgalaṃ, suppabhātaṃ suhuṭṭhitaṃ.Sukhaṇo sumuhutto ca, suyiṭṭhaṃ brahmacārisu.Padakkhiṇaṃ kāyakammaṃ, vacīkammaṃ padakkhiṇaṃ.Padakkhiṇaṃ manokammaṃ, paṇihite padakkhiṇaṃ.Padakkhiṇāni katvāna, labhante padakkhiṇā.Te ataladdhā sukhitā, viruḷhā Buddhasāsane.Asokā sirikhitā hotha, saha sabbehi jātibhi.Te ataladdhā sukhitā, viruḷhā Buddhasāsane.Abhayā sukhitā hotha, saha sabbehi jātibhi.Te ataladdhā sukhitā, viruḷhā Buddhasāsane.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 48
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 48,
+            "end": 96
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 96,
+            "end": 144
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 144,
+            "end": 193
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 193,
+            "end": 244
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 244,
+            "end": 284
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 284,
+            "end": 334
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 334,
+            "end": 372
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 372,
+            "end": 416
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 416,
+            "end": 461
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 461,
+            "end": 506
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 506,
+            "end": 557
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 557,
+            "end": 601
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 601,
+            "end": 646
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 646,
+            "end": 685
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 685,
+            "end": 729
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 729,
+            "end": 772
+          }
+        ],
+        "type": "verse",
+        "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 772,
+            "end": 818
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 818,
+            "end": 863
+          }
+        ],
+        "type": "verse",
+        "reference": "0-19"
+      },
+      {
+        "lines": [
+          {
+            "start": 863,
+            "end": 909
+          }
+        ],
+        "type": "verse",
+        "reference": "0-20"
+      },
+      {
+        "lines": [
+          {
+            "start": 909,
+            "end": 954
+          }
+        ],
+        "type": "verse",
+        "reference": "0-21"
+      },
+      {
+        "lines": [
+          {
+            "start": 954,
+            "end": 998
+          }
+        ],
+        "type": "verse",
+        "reference": "0-22"
+      },
+      {
+        "lines": [
+          {
+            "start": 998,
+            "end": 1043
+          }
+        ],
+        "type": "verse",
+        "reference": "0-23"
+      },
+      {
+        "lines": [
+          {
+            "start": 1043,
+            "end": 1083
+          }
+        ],
+        "type": "verse",
+        "reference": "0-24"
+      },
+      {
+        "lines": [
+          {
+            "start": 1083,
+            "end": 1128
+          }
+        ],
+        "type": "verse",
+        "reference": "0-25"
+      },
+      {
+        "lines": [
+          {
+            "start": 1128,
+            "end": 1169
+          }
+        ],
+        "type": "verse",
+        "reference": "0-26"
+      },
+      {
+        "lines": [
+          {
+            "start": 1169,
+            "end": 1214
+          }
+        ],
+        "type": "verse",
+        "reference": "0-27"
+      },
+      {
+        "lines": [
+          {
+            "start": 1214,
+            "end": 1257
+          }
+        ],
+        "type": "verse",
+        "reference": "0-28"
+      },
+      {
+        "lines": [
+          {
+            "start": 1257,
+            "end": 1299
+          }
+        ],
+        "type": "verse",
+        "reference": "0-29"
+      },
+      {
+        "lines": [
+          {
+            "start": 1299,
+            "end": 1344
+          }
+        ],
+        "type": "verse",
+        "reference": "0-30"
+      },
+      {
+        "lines": [
+          {
+            "start": 1344,
+            "end": 1393
+          }
+        ],
+        "type": "verse",
+        "reference": "0-31"
+      },
+      {
+        "lines": [
+          {
+            "start": 1393,
+            "end": 1438
+          }
+        ],
+        "type": "verse",
+        "reference": "0-32"
+      },
+      {
+        "lines": [
+          {
+            "start": 1438,
+            "end": 1485
+          }
+        ],
+        "type": "verse",
+        "reference": "0-33"
+      },
+      {
+        "lines": [
+          {
+            "start": 1485,
+            "end": 1530
+          }
+        ],
+        "type": "verse",
+        "reference": "0-34"
+      },
+      {
+        "lines": [
+          {
+            "start": 1530,
+            "end": 1572
+          }
+        ],
+        "type": "verse",
+        "reference": "0-35"
+      },
+      {
+        "lines": [
+          {
+            "start": 1572,
+            "end": 1615
+          }
+        ],
+        "type": "verse",
+        "reference": "0-36"
+      },
+      {
+        "lines": [
+          {
+            "start": 1615,
+            "end": 1659
+          }
+        ],
+        "type": "verse",
+        "reference": "0-37"
+      },
+      {
+        "lines": [
+          {
+            "start": 1659,
+            "end": 1702
+          }
+        ],
+        "type": "verse",
+        "reference": "0-38"
+      },
+      {
+        "lines": [
+          {
+            "start": 1702,
+            "end": 1745
+          }
+        ],
+        "type": "verse",
+        "reference": "0-39"
+      },
+      {
+        "lines": [
+          {
+            "start": 1745,
+            "end": 1788
+          }
+        ],
+        "type": "verse",
+        "reference": "0-40"
+      }
+    ]
+  }
+}
