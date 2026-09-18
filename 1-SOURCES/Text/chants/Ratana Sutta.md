@@ -22,42 +22,54 @@ Bhummāni vā yāni vā antalikkhe. ^0-2
 
 Sabbeva bhūtā sumanā bhavantu, ^0-3
 
-Tasmā hi bhūtā nisāmetha sabbe, ^0-4
+Athopi sakkacca suṇantu bhāsitaṃ. ॥1॥ ^0-4
 
-Mettaṃ karotha mānusiyā pajāya. ^0-5
+Tasmā hi bhūtā nisāmetha sabbe, ^0-5
 
-Divā ca ratto ca haranti ye baliṃ, ^0-6
+Mettaṃ karotha mānusiyā pajāya. ^0-6
 
-Yaṃ kiñci vittaṃ idha vā huraṃ vā, ^0-7
+Divā ca ratto ca haranti ye baliṃ, ^0-7
 
-Saggesu vā yaṃ ratanaṃ paṇītaṃ. ^0-8
+Tasmā hi ne rakkhatha appamattā. ॥2॥ ^0-8
 
-Na no samaṃ atthi tathāgatena, ^0-9
+Yaṃ kiñci vittaṃ idha vā huraṃ vā, ^0-9
 
-Idampi buddhe ratanaṃ paṇītaṃ. ^0-10
+Saggesu vā yaṃ ratanaṃ paṇītaṃ. ^0-10
 
-Khayaṃ virāgaṃ amataṃ paṇītaṃ, ^0-11
+Na no samaṃ atthi tathāgatena, ^0-11
 
-Yadajjhagā Sakyamunī samādhiṃ. ^0-12
+Idampi buddhe ratanaṃ paṇītaṃ. ^0-12
 
-Na tena dhammena samatthi kiñci, ^0-13
+Etena saccena suvatthi hotu. ॥3॥ ^0-13
 
-Idampi dhamme ratanaṃ paṇītaṃ. ^0-14
+Khayaṃ virāgaṃ amataṃ paṇītaṃ, ^0-14
 
-Yaṃ buddhasettho parivaṇṇayī suciṃ, ^0-15
+Yadajjhagā Sakyamunī samādhiṃ. ^0-15
 
-Samādhimānantarikaññamāhu. ^0-16
+Na tena dhammena samatthi kiñci, ^0-16
 
-Samādhinā tena samo na vijjati. ^0-17
+Idampi dhamme ratanaṃ paṇītaṃ. ^0-17
 
-Idampi dhamme ratanaṃ paṇītaṃ. ^0-18
+Etena saccena suvatthi hotu. ॥4॥ ^0-18
 
-Ye puggalā aṭṭha sataṃ pasatthā, ^0-19
+Yaṃ buddhasettho parivaṇṇayī suciṃ, ^0-19
 
-Cattāri etāni yugāni honti. ^0-20
+Samādhimānantarikaññamāhu. ^0-20
 
-Te dakkhiṇeyyā sugatassa sāvakā, ^0-21
+Samādhinā tena samo na vijjati. ^0-21
 
-Etesu dinnāni mahapphalāni. ^0-22
+Idampi dhamme ratanaṃ paṇītaṃ. ^0-22
 
-Idampi saṅghe ratanaṃ paṇītaṃ. ^0-23
+Etena saccena suvatthi hotu. ॥5॥ ^0-23
+
+Ye puggalā aṭṭha sataṃ pasatthā, ^0-24
+
+Cattāri etāni yugāni honti. ^0-25
+
+Te dakkhiṇeyyā sugatassa sāvakā, ^0-26
+
+Etesu dinnāni mahapphalāni. ^0-27
+
+Idampi saṅghe ratanaṃ paṇītaṃ. ^0-28
+
+Etena saccena suvatthi hotu. ॥6॥ ^0-29

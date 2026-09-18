@@ -30,18 +30,34 @@ Osadhañca imaṃ mantaṃ, bojjhaṅgañca bhaṇāmahe. ^0-6
 
 Bojjhaṅgo sati saṅkhāto, dhammānaṃ-vicayo tathā. ^0-7
 
-Samādhupekkhā bojjhaṅgā, sattete sabbadassinā. ^0-8
+Vīriyaṃ pīti passaddhi, bojjhaṅgo ca tathā pare. ॥1॥ ^0-8
 
-Saṃvattanti abhiññāya, nibbāṇāya ca bodhiyā. ^0-9
+Samādhupekkhā bojjhaṅgā, sattete sabbadassinā. ^0-9
 
-Ekasmiṃ samaye Nātho, Moggālānañca Kassapaṃ. ^0-10
+Muninā sammadakkhātā, bhāvanā bahulīkatā. ॥2॥ ^0-10
 
-Te ca taṃ abhinanditvā, rogā mucciṃsu taṅkhaṇe. ^0-11
+Saṃvattanti abhiññāya, nibbāṇāya ca bodhiyā. ^0-11
 
-Ekadā Dhammarājāpi, gelaññe nābhipīḷito. ^0-12
+Etena saccavajjena, sotthi te hotu sabbadā. ॥3॥ ^0-12
 
-Sammoditvāna ābādhā, taṇhā vuḍḍhāsi ṭhānaso. ^0-13
+Ekasmiṃ samaye Nātho, Moggālānañca Kassapaṃ. ^0-13
 
-Pahīnā te ca ābādhā, tiṇṇampi mahesinaṃ. ^0-14
+Gilāne dukkhite disvā, bojjhaṅge satta desayi. ॥4॥ ^0-14
 
-Maggāhatā kilesāva, pattānupatti dhammataṃ. ^0-15
+Te ca taṃ abhinanditvā, rogā mucciṃsu taṅkhaṇe. ^0-15
+
+Etena saccavajjena, sotthi te hotu sabbadā. ॥5॥ ^0-16
+
+Ekadā Dhammarājāpi, gelaññe nābhipīḷito. ^0-17
+
+Cundatherena taṃ yeva bhaṇāpetvāna sādaraṃ. ॥6॥ ^0-18
+
+Sammoditvāna ābādhā, taṇhā vuḍḍhāsi ṭhānaso. ^0-19
+
+Etena saccavajjena, sotthi te hotu sabbadā. ॥7॥ ^0-20
+
+Pahīnā te ca ābādhā, tiṇṇampi mahesinaṃ. ^0-21
+
+Maggāhatā kilesāva, pattānupatti dhammataṃ. ^0-22
+
+Etena saccavajjena, sotthi te hotu sabbadā. ॥8॥ ^0-23
