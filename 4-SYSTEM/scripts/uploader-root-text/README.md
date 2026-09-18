@@ -91,9 +91,39 @@ step 4 reads the root's `edition_id` out of the file named by `root_text:`.
 | `--dry-run` | print every call and payload size, send nothing |
 | `--force` | create new records even when the frontmatter already has ids |
 | `--skip-alignment` | stop after the TOC |
+| `--recreate` | **destructive** — delete the edition then the text, clear the recorded ids, and create everything again |
 | `--api-key KEY` | `X-API-Key` header (or `WEBUDDHIST_API_KEY`) |
 | `--base-url URL` | default `https://library.webuddhist.com` |
 | `--root-edition-id ID` | step 4's target, when the source `.md` can't be found |
+
+## Re-creating a text (`--recreate`)
+
+`translation_of` and `commentary_of` are **create-only** in the API: they exist
+on `TextInput` (`POST /v2/texts`) but not on `TextPatch`, so a `PATCH` carrying
+one is rejected with `422 extra_forbidden`. There is no other endpoint that sets
+them. The only way to attach a translation to its root after the fact is to
+delete the records and create them again:
+
+```bash
+python 4-SYSTEM\scripts\uploader-root-text\upload.py --recreate "…\output\<stem>"
+```
+
+which, in order:
+
+1. `DELETE /v2/editions/{edition_id}` — the edition must go first, because
+   `DELETE /v2/texts/{id}` refuses while the text still has editions. This also
+   removes that edition's TOC, segmentation and alignments
+2. `DELETE /v2/texts/{text_id}`
+3. clears `text_id` / `edition_id` / `toc_id` in the source `.md` and deletes
+   the `<stem>.ids.json` sidecar
+4. runs the normal create flow, so the `POST` body now carries `translation_of`
+
+**Everything gets new ids.** Anything referencing the old edition id — an
+alignment in another file, a bookmark, a published link — breaks. Dry-run first:
+
+```bash
+python … upload.py --dry-run --recreate "…\output\<stem>"
+```
 
 ## Notes
 

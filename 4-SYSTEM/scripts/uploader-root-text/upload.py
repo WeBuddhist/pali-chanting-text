@@ -118,8 +118,12 @@ def _read_frontmatter(path):
 
 
 def _patch_frontmatter(path, updates):
-    """Set frontmatter keys in place, preserving the file's line endings."""
-    updates = {k: v for k, v in updates.items() if v}
+    """Set frontmatter keys in place, preserving the file's line endings.
+
+    A value of "" clears the key (``text_id:`` with nothing after it); None
+    means "leave this key alone".
+    """
+    updates = {k: v for k, v in updates.items() if v is not None}
     if not updates:
         return []
     with open(path, "r", encoding="utf-8", newline="") as fh:
@@ -135,12 +139,15 @@ def _patch_frontmatter(path, updates):
         # ".*$" swallows the \r and silently rewrites that line to LF.
         pattern = re.compile(r"^(%s:)[ \t]*([^\r\n]*)" % re.escape(key), re.MULTILINE)
         found = pattern.search(block)
+        line = ("%s: %s" % (key, value)) if value != "" else ("%s: " % key)
         if found:
-            if found.group(2).strip() == str(value):
+            if found.group(2).strip() == str(value).strip():
                 continue
-            block = pattern.sub(lambda _m, k=key, v=value: "%s: %s" % (k, v), block, count=1)
+            block = pattern.sub(lambda _m, l=line: l, block, count=1)
+        elif value != "":
+            block = block + eol + line
         else:
-            block = block + eol + "%s: %s" % (key, value)
+            continue
         changed.append(key)
     if not changed:
         return []
@@ -190,7 +197,9 @@ def _save_ids(payload_dir, stem, source_md, result):
 
 
 def _resolve_path_near(val, source_path):
-    val_path = Path(val)
+    # Frontmatter often carries Windows separators (1-SOURCES\Text\...);
+    # normalize so root_text resolves on any platform.
+    val_path = Path(str(val).replace("\\", "/"))
     for base in [source_path.parent, *source_path.parents]:
         candidate = base / val_path
         if candidate.exists():
@@ -240,6 +249,28 @@ def _request(method, url, payload, api_key, dry_run=False):
         return status, {"_raw": raw}
 
 
+def _delete(url, api_key, dry_run=False):
+    if dry_run:
+        print(f"  DRY-RUN DELETE {url}")
+        return 0
+    headers = {"accept": "*/*"}
+    if api_key:
+        headers["X-API-Key"] = api_key
+    req = urllib.request.Request(url, headers=headers, method="DELETE")
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            return resp.status
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise SystemExit(
+            f"ERROR DELETE {url}\n"
+            f"      HTTP {exc.code} {exc.reason}\n"
+            f"      {detail[:2000]}"
+        )
+    except urllib.error.URLError as exc:
+        raise SystemExit(f"ERROR DELETE {url}\n      {exc.reason}")
+
+
 def _extract_id(data, *names):
     if not isinstance(data, dict):
         return None
@@ -258,7 +289,8 @@ def _extract_id(data, *names):
 # ---------------------------------------------------------------------------
 
 def upload(payload_dir, stem, source_md, base_url, api_key, dry_run=False,
-           force=False, skip_alignment=False, root_edition_id=None):
+           force=False, skip_alignment=False, root_edition_id=None,
+           recreate=False):
     if not payload_dir.is_dir():
         raise SystemExit(
             f"ERROR no payload folder {payload_dir}\n"
@@ -268,6 +300,34 @@ def upload(payload_dir, stem, source_md, base_url, api_key, dry_run=False,
     print(f"\n=== {stem} ===")
     print(f"    payloads: {payload_dir}")
     print(f"    source  : {source_md if source_md else '(not found — ids go to the sidecar only)'}")
+
+    if recreate:
+        old = _load_known_ids(payload_dir, stem, source_md)
+        if not any(old.values()):
+            print("  SKIP  recreate    nothing registered yet — creating fresh")
+        else:
+            # The edition must go first: DELETE /v2/texts/{id} refuses while the
+            # text still has editions. Deleting the edition also removes its
+            # TOC, segmentation and alignments.
+            if old.get("edition_id"):
+                print(f"  DEL   edition     {old['edition_id']}  (takes TOC + segmentation + alignments)")
+                status = _delete(f"{base_url}/v2/editions/{old['edition_id']}", api_key, dry_run)
+                if not dry_run:
+                    print(f"        HTTP {status}")
+            if old.get("text_id"):
+                print(f"  DEL   text        {old['text_id']}")
+                status = _delete(f"{base_url}/v2/texts/{old['text_id']}", api_key, dry_run)
+                if not dry_run:
+                    print(f"        HTTP {status}")
+            if not dry_run:
+                cleared = _patch_frontmatter(source_md, {k: "" for k in ID_KEYS}) if source_md else []
+                sidecar = _ids_path(payload_dir, stem)
+                if sidecar.exists():
+                    sidecar.unlink()
+                    print(f"  REMOVED {sidecar.name}")
+                if cleared:
+                    print(f"  CLEARED {source_md.name}: {', '.join(cleared)}")
+        force = True
 
     known = {} if force else _load_known_ids(payload_dir, stem, source_md)
     text_id = known.get("text_id")
@@ -394,6 +454,10 @@ def main(argv=None):
     ap.add_argument("--force", action="store_true",
                     help="create new records even when ids are already recorded")
     ap.add_argument("--skip-alignment", action="store_true")
+    ap.add_argument("--recreate", action="store_true",
+                    help="DESTRUCTIVE: delete the existing edition then text, clear the "
+                         "recorded ids, and create everything again — the only way to set "
+                         "translation_of, which the API accepts on POST but not PATCH")
     ap.add_argument("--root-edition-id", default=None,
                     help="root text's edition_id for step 4, when the source .md is unavailable")
     args = ap.parse_args(argv)
@@ -407,6 +471,7 @@ def main(argv=None):
             dry_run=args.dry_run, force=args.force,
             skip_alignment=args.skip_alignment,
             root_edition_id=args.root_edition_id,
+            recreate=args.recreate,
         ))
 
     print("\n" + "=" * 62)
