@@ -94,7 +94,9 @@ def _read_source(path):
 
 
 def _resolve_root_text_path(val, source_path):
-    val_path = Path(val)
+    # Frontmatter is hand-written and often carries Windows separators
+    # (1-SOURCES\Text\...); normalize so the path resolves on any platform.
+    val_path = Path(str(val).replace("\\", "/"))
     for base in [source_path.parent, *source_path.parents]:
         candidate = base / val_path
         if candidate.exists():
@@ -158,11 +160,59 @@ def _infer_segment_type(ref_no_caret, doc_default):
     return doc_default
 
 
+PARENT_KEY_BY_TYPE = {"translation": "translation_of", "commentary": "commentary_of"}
+
+
+def _resolve_parent_text_id(clean, source_path):
+    """Fill translation_of / commentary_of from the root text's ``text_id``.
+
+    The lint JSON carries this only when the linter could resolve ``root_text``
+    AND the root already had a ``text_id`` at lint time — neither is guaranteed,
+    so the parser re-derives it from the source frontmatter instead of shipping
+    a payload with the link missing.
+    """
+    try:
+        fm, _ = _read_source(source_path)
+    except (ValueError, OSError) as exc:
+        print(f"  WARN parent text: could not read source: {exc}", file=sys.stderr)
+        return
+
+    key = PARENT_KEY_BY_TYPE.get(fm.get("file_type", ""))
+    if not key or clean.get(key):
+        return
+
+    root_val = fm.get("root_text")
+    if not root_val:
+        print(f"  WARN {key}: no root_text in frontmatter — omitted", file=sys.stderr)
+        return
+
+    root_path = _resolve_root_text_path(str(root_val), source_path)
+    if root_path is None:
+        print(f"  WARN {key}: root_text {root_val!r} could not be resolved — omitted",
+              file=sys.stderr)
+        return
+
+    try:
+        root_fm, _ = _read_source(root_path)
+    except (ValueError, OSError) as exc:
+        print(f"  WARN {key}: could not read {root_path.name}: {exc}", file=sys.stderr)
+        return
+
+    text_id = str(root_fm.get("text_id") or "").strip()
+    if not text_id:
+        print(f"  WARN {key}: {root_path.name} has no text_id — upload the root text "
+              f"first, then re-run — omitted", file=sys.stderr)
+        return
+
+    clean[key] = text_id
+    print(f"  INFO {key} = {text_id}  (from {root_path.name})")
+
+
 # ---------------------------------------------------------------------------
 # Function 1: extract text_input
 # ---------------------------------------------------------------------------
 
-def extract_text_input(lint_path, out_stem=None):
+def extract_text_input(lint_path, out_stem=None, source_path=None):
     data = json.loads(
         lint_path.read_bytes().replace(b'\x00', b'').decode("utf-8", errors="replace")
     )
@@ -170,6 +220,9 @@ def extract_text_input(lint_path, out_stem=None):
     if text_input is None:
         raise ValueError(f"no text_input found in {lint_path.name}")
     clean = {k: v for k, v in text_input.items() if not _is_empty(v)}
+
+    if source_path is not None:
+        _resolve_parent_text_id(clean, source_path)
 
     if "alt_titles" not in clean:
         print("  WARN alt_titles: missing — ignored", file=sys.stderr)
@@ -474,7 +527,7 @@ def main(argv=None):
         sys.exit(1)
 
     try:
-        text_out = extract_text_input(lint_path, source_path.stem)
+        text_out = extract_text_input(lint_path, source_path.stem, source_path)
         print(f"OK    {lint_path}  ->  {text_out}")
     except Exception as exc:
         print(f"ERROR text_input: {exc}", file=sys.stderr)
