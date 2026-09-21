@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Apetayaṃ cakkhumā ekarājā,Harissavaṇṇo paṭhavippabhāso.Taṃ taṃ namassāmi harissavaṇṇaṃ paṭhavippabhāsaṃ,Tayajja guttā viharemu rattiṃ.Ye brāhmaṇā vedagū sabbadhamme,Te me namo te ca maṃ pālayantu.Namatthu buddhānaṃ, namatthu bodhiyā.Namo vimuttānaṃ, namo vimuttiyā.Imaṃ so parittaṃ katvā,Moro vāsamakappayi.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 26
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 26,
+            "end": 55
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 55,
+            "end": 104
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 104,
+            "end": 134
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 134,
+            "end": 165
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 165,
+            "end": 196
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 196,
+            "end": 233
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 233,
+            "end": 265
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 265,
+            "end": 288
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 288,
+            "end": 307
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      }
+    ]
+  }
+}

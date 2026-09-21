@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "समय पर वर्षा हो और फसलों की समृद्धि हो।संसार समृद्ध हो और शासक धर्मनिष्ठ हो।इस शुद्ध चित्त से की गई बुद्ध पूजा के द्वारा,सद्धम्म दीर्घकाल तक स्थिर रहे और संसार सदा सुखी रहे।इस शुद्ध चित्त से की गई धम्म पूजा के द्वारा,सद्धम्म दीर्घकाल तक स्थिर रहे और संसार सदा सुखी रहे।इस शुद्ध चित्त से की गई संघ पूजा के द्वारा,सद्धम्म दीर्घकाल तक स्थिर रहे और संसार सदा सुखी रहे।",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 39
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 39,
+            "end": 76
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 76,
+            "end": 121
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 121,
+            "end": 173
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 173,
+            "end": 217
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 217,
+            "end": 269
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 269,
+            "end": 312
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 312,
+            "end": 364
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      }
+    ]
+  }
+}

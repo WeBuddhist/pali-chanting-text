@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Jayāsana gatā vīrā, jetvā Māraṃ savāhiniṃ.Catusaccāmatarasaṃ, ye piviṃsu narāsabhā. ॥1॥Taṇhaṅkarādayo Buddhā, aṭṭhavīsati nāyakā.Sabbe patiṭṭhitā mayhaṃ, matthake me munissarā. ॥2॥Sire patiṭṭhitā Buddhā, dhammo ca tava locane.Saṅgho patiṭṭhito mayhaṃ, ure sabbaguṇākaro. ॥3॥Hadaye Anuruddho ca, Sāriputto ca dakkhiṇe.Koṇḍañño piṭṭhibhāgasmiṃ, Moggallāno'si vāmake. ॥4॥Dakkhiṇe savaṇe mayhaṃ, ahuṃ Ānandarāhulā.Kassapo ca Mahānāmo, ubhosuṃ vāmasotake. ॥5॥Kesante piṭṭhibhāgasmiṃ, suriyo viya pabhaṅkaro.Nisinno sirisampanno, Sobhito munipuṅgavo. ॥6॥Kumārakassapo nāma, mahesī citravādako.So mayhaṃ vadane niccaṃ, patiṭṭhāsi guṇākaro. ॥7॥Puṇṇo Aṅgulimālo ca, Upālinandasīvalī.Therā pañca ime jātā, lalāṭe tilakā mama. ॥8॥Sesāsīti mahātherā, vijitā jinasāvakā.Jalantā sīlatejena, aṅgamaṅgesu saṇṭhitā. ॥9॥Ratanaṃ purato āsi, dakkhiṇe Mettasuttakaṃ.Dhajaggaṃ pacchato āsi, vāme Aṅgulimālakaṃ. ॥10॥Khandhamoraparittañca, Āṭānāṭiya suttakaṃ.Ākāsacchadanaṃ āsi, sesā pākārasaññitā. ॥11॥Jināṇābalasaṃyute, dhammapākāralaṅkate.Vasato me catukiccena, sadā Sambuddhapañjare. ॥12॥Vātapittādi sañjātā, bāhirajjhattupaddavā.Asesā vilayaṃ yantu, anantaguṇatejasā. ॥13॥Jinapañjaramajjhaṭṭhaṃ, viharantaṃ mahītale.Sadā pālentu maṃ sabbe, te mahāpurisāsabhā. ॥14॥Iccevamaccantakato surakkho, jinānubhāvena jitūpapaddavo.Buddhānubhāvena hatārisagho, carāsi saddhammanubhāvapālito. ॥15॥Iccevamaccantakato surakkho, jinānubhāvena jitūpapaddavo.Dhammānubhāvena hatārisagho, carāsi saddhammanubhāvapālito. ॥16॥Iccevamaccantakato surakkho, jinānubhāvena jitūpapaddavo.Saṅghānubhāvena hatārisagho, carāsi saddhammanubhāvapālito. ॥17॥Saddhammapākāra-parikkhitosi, aṭṭhariyā aṭṭhadisāsu honti.Etthantare aṭṭhanāyā bhavanti, uddhaṃ vitānaṃ va jinā ṭhitā me. ॥18॥Bhindato Mārasenaṃ tava sirasi ṭhito, Bodhimāruhya Satthā.Moggallāno'si vāme vasati bhujaṅgaṭe, dakkhiṇe Sāriputto.Dhammo majjhe urasmiṃ viharati bhavato, mokkhato morayoniṃ.Sampatto Bodhisatto caraṇayugagato, bhānu lokekanātho. ॥19॥Sabbāvamaṅgalamupaddavadunimittaṃ, sabbītīrogagahadosasamasesanindā.Sabbantarāyabhayadussupinaṃ akantaṃ, Buddhānubhāvapavarena payātu nāsaṃ. ॥20॥Sabbāvamaṅgalamupaddavadunimittaṃ, sabbītīrogagahadosasamasesanindā.Sabbantarāyabhayadussupinaṃ akantaṃ, Dhammānubhāvapavarena payātu nāsaṃ. ॥21॥Sabbāvamaṅgalamupaddavadunimittaṃ, sabbītīrogagahadosasamasesanindā.Sabbantarāyabhayadussupinaṃ akantaṃ, Saṅghānubhāvapavarena payātu nāsaṃ. ॥22॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 42
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 42,
+            "end": 87
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 87,
+            "end": 129
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 129,
+            "end": 180
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 180,
+            "end": 226
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 226,
+            "end": 274
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 274,
+            "end": 317
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 317,
+            "end": 368
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 368,
+            "end": 410
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 410,
+            "end": 454
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 454,
+            "end": 502
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 502,
+            "end": 548
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 548,
+            "end": 587
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 587,
+            "end": 636
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 636,
+            "end": 674
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 674,
+            "end": 719
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 719,
+            "end": 757
+          }
+        ],
+        "type": "verse",
+        "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 757,
+            "end": 802
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 802,
+            "end": 845
+          }
+        ],
+        "type": "verse",
+        "reference": "0-19"
+      },
+      {
+        "lines": [
+          {
+            "start": 845,
+            "end": 893
+          }
+        ],
+        "type": "verse",
+        "reference": "0-20"
+      },
+      {
+        "lines": [
+          {
+            "start": 893,
+            "end": 935
+          }
+        ],
+        "type": "verse",
+        "reference": "0-21"
+      },
+      {
+        "lines": [
+          {
+            "start": 935,
+            "end": 979
+          }
+        ],
+        "type": "verse",
+        "reference": "0-22"
+      },
+      {
+        "lines": [
+          {
+            "start": 979,
+            "end": 1018
+          }
+        ],
+        "type": "verse",
+        "reference": "0-23"
+      },
+      {
+        "lines": [
+          {
+            "start": 1018,
+            "end": 1068
+          }
+        ],
+        "type": "verse",
+        "reference": "0-24"
+      },
+      {
+        "lines": [
+          {
+            "start": 1068,
+            "end": 1110
+          }
+        ],
+        "type": "verse",
+        "reference": "0-25"
+      },
+      {
+        "lines": [
+          {
+            "start": 1110,
+            "end": 1153
+          }
+        ],
+        "type": "verse",
+        "reference": "0-26"
+      },
+      {
+        "lines": [
+          {
+            "start": 1153,
+            "end": 1197
+          }
+        ],
+        "type": "verse",
+        "reference": "0-27"
+      },
+      {
+        "lines": [
+          {
+            "start": 1197,
+            "end": 1245
+          }
+        ],
+        "type": "verse",
+        "reference": "0-28"
+      },
+      {
+        "lines": [
+          {
+            "start": 1245,
+            "end": 1302
+          }
+        ],
+        "type": "verse",
+        "reference": "0-29"
+      },
+      {
+        "lines": [
+          {
+            "start": 1302,
+            "end": 1366
+          }
+        ],
+        "type": "verse",
+        "reference": "0-30"
+      },
+      {
+        "lines": [
+          {
+            "start": 1366,
+            "end": 1423
+          }
+        ],
+        "type": "verse",
+        "reference": "0-31"
+      },
+      {
+        "lines": [
+          {
+            "start": 1423,
+            "end": 1487
+          }
+        ],
+        "type": "verse",
+        "reference": "0-32"
+      },
+      {
+        "lines": [
+          {
+            "start": 1487,
+            "end": 1544
+          }
+        ],
+        "type": "verse",
+        "reference": "0-33"
+      },
+      {
+        "lines": [
+          {
+            "start": 1544,
+            "end": 1608
+          }
+        ],
+        "type": "verse",
+        "reference": "0-34"
+      },
+      {
+        "lines": [
+          {
+            "start": 1608,
+            "end": 1666
+          }
+        ],
+        "type": "verse",
+        "reference": "0-35"
+      },
+      {
+        "lines": [
+          {
+            "start": 1666,
+            "end": 1734
+          }
+        ],
+        "type": "verse",
+        "reference": "0-36"
+      },
+      {
+        "lines": [
+          {
+            "start": 1734,
+            "end": 1792
+          }
+        ],
+        "type": "verse",
+        "reference": "0-37"
+      },
+      {
+        "lines": [
+          {
+            "start": 1792,
+            "end": 1849
+          }
+        ],
+        "type": "verse",
+        "reference": "0-38"
+      },
+      {
+        "lines": [
+          {
+            "start": 1849,
+            "end": 1908
+          }
+        ],
+        "type": "verse",
+        "reference": "0-39"
+      },
+      {
+        "lines": [
+          {
+            "start": 1908,
+            "end": 1967
+          }
+        ],
+        "type": "verse",
+        "reference": "0-40"
+      },
+      {
+        "lines": [
+          {
+            "start": 1967,
+            "end": 2035
+          }
+        ],
+        "type": "verse",
+        "reference": "0-41"
+      },
+      {
+        "lines": [
+          {
+            "start": 2035,
+            "end": 2112
+          }
+        ],
+        "type": "verse",
+        "reference": "0-42"
+      },
+      {
+        "lines": [
+          {
+            "start": 2112,
+            "end": 2180
+          }
+        ],
+        "type": "verse",
+        "reference": "0-43"
+      },
+      {
+        "lines": [
+          {
+            "start": 2180,
+            "end": 2257
+          }
+        ],
+        "type": "verse",
+        "reference": "0-44"
+      },
+      {
+        "lines": [
+          {
+            "start": 2257,
+            "end": 2325
+          }
+        ],
+        "type": "verse",
+        "reference": "0-45"
+      },
+      {
+        "lines": [
+          {
+            "start": 2325,
+            "end": 2402
+          }
+        ],
+        "type": "verse",
+        "reference": "0-46"
+      }
+    ]
+  }
+}

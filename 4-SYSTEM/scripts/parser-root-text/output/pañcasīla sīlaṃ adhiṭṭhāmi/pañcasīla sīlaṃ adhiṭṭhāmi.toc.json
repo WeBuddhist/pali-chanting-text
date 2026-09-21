@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "title": {
+        "pi": "pañcasīla sīlaṃ adhiṭṭhāmi"
+      },
+      "span": {
+        "start": 0,
+        "end": 780
+      },
+      "subsections": [
+        {
+          "title": {
+            "pi": "Namo Tassa"
+          },
+          "span": {
+            "start": 0,
+            "end": 141
+          }
+        },
+        {
+          "title": {
+            "pi": "Tisaraṇa"
+          },
+          "span": {
+            "start": 141,
+            "end": 426
+          }
+        },
+        {
+          "title": {
+            "pi": "Pañcasīlāni"
+          },
+          "span": {
+            "start": 426,
+            "end": 665
+          }
+        },
+        {
+          "title": {
+            "pi": "Ovāda"
+          },
+          "span": {
+            "start": 665,
+            "end": 780
+          }
+        }
+      ]
+    }
+  ]
+}

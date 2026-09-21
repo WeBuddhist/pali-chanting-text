@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Virūpakkhehi me mettaṃ, mettaṃ erāpathehi me.Chabyāputtehi me mettaṃ, mettaṃ kaṇhāgotamakehi ca. ॥3॥Apādakehi me mettaṃ, mettaṃ dipādakehi me.Catuppadehi me mettaṃ, mettaṃ bahuppadehi me. ॥4॥Mā maṃ apādako hiṃsi, mā maṃ hiṃsi dipādako.Mā maṃ catuppado hiṃsi, mā maṃ hiṃsi bahuppado. ॥5॥Sabbe sattā sabbe pāṇā, sabbe bhūtā ca kevalā.Sabbe bhadrāṇi passantu, mā kiñci pāpamāgamā. ॥6॥Appamāṇo buddho, appamāṇo dhammo, appamāṇo saṅgho.Pamāṇavantāni siriṃsapāni, ahivicchikā satapadī uṇṇānābhi sarabhū.Mūsikā, katā me rakkhā, katā me parittā.Paṭikkamantu bhūtāni, sohaṃ namo bhagavato.Namo sattannaṃ sammāsambuddhānanti. ॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 45
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 45,
+            "end": 100
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 100,
+            "end": 142
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 142,
+            "end": 191
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 191,
+            "end": 235
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 235,
+            "end": 286
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 286,
+            "end": 332
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 332,
+            "end": 381
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 381,
+            "end": 431
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 431,
+            "end": 497
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 497,
+            "end": 537
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 537,
+            "end": 580
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 580,
+            "end": 617
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      }
+    ]
+  }
+}

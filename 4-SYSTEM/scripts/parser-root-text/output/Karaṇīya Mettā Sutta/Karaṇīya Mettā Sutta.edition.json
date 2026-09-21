@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Karaṇīyamatthakusalena, yantaṃ santaṃ padaṃ abhisamecca.Sakko ujū ca suhujū ca, suvaco cassa mudu anatimānī. ॥1॥Santussako ca subharo ca, appakicco ca sallahukavutti.Santindriyo ca nipako ca, appagabbho kulesu ananugiddho. ॥2॥Na ca khuddaṃ samācare kiñci, yena viññū pare upavadeyyuṃ.Sukhino vā khemino hontu, sabbe sattā bhavantu sukhitattā. ॥3॥Ye keci pāṇabhūtatthi, tasā vā thāvarā vā anavasesā.Dīghā vā ye mahantā vā, majjhimā rassakā aṇukathūlā. ॥4॥Diṭṭhā vā yeva adiṭṭhā, ye ca dūre vasanti avidūre.Bhūtā vā sambhavesī vā, sabbe sattā bhavantu sukhitattā. ॥5॥Na paro paraṃ nikubbetha, nātimaññetha katthaci naṃ kañci.Byārosanā paṭighasaññā, nāññamaññassa dukkhamiccheyya. ॥6॥Mātā yathā niyaṃ puttaṃ, āyusā ekaputtamanurakkhe.Evampi sabbabhūtesu, mānasaṃ bhāvaye appamāṇaṃ. ॥7॥Mettañca sabbalokasmiṃ, mānasaṃ bhāvaye appamāṇaṃ.Uddhaṃ adho ca tiriyañca, asambādhaṃ averaṃ asapattaṃ. ॥8॥Tiṭṭhaṃ caraṃ nisinno vā, sayāno vā yāvatassa vigatamiddho.Etaṃ satiṃ adhiṭṭheyya, brahmametaṃ vihāramidhamāhu. ॥9॥Diṭṭhiñca anupagamma, sīlavā dassanena sampanno.Kāmesu vineyya gedhaṃ, na hi jātu gabbhaseyyaṃ punaretīti. ॥10॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 56
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 56,
+            "end": 112
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 112,
+            "end": 166
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 166,
+            "end": 226
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 226,
+            "end": 284
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 284,
+            "end": 346
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 346,
+            "end": 398
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 398,
+            "end": 454
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 454,
+            "end": 505
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 505,
+            "end": 565
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 565,
+            "end": 623
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 623,
+            "end": 681
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 681,
+            "end": 731
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 731,
+            "end": 782
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 782,
+            "end": 832
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 832,
+            "end": 890
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 890,
+            "end": 949
+          }
+        ],
+        "type": "verse",
+        "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 949,
+            "end": 1005
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 1005,
+            "end": 1053
+          }
+        ],
+        "type": "verse",
+        "reference": "0-19"
+      },
+      {
+        "lines": [
+          {
+            "start": 1053,
+            "end": 1116
+          }
+        ],
+        "type": "verse",
+        "reference": "0-20"
+      }
+    ]
+  }
+}

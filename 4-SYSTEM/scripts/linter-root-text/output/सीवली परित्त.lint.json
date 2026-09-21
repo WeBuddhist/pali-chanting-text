@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "source": "/sessions/rcw-01piugyxn7jxzyechvvznqsq/mnt/pali-chanting-text/1-SOURCES/Translations/सीवली परित्त.md",
+  "validated_at": "2026-09-21T09:39:23.416362+00:00",
+  "notes": [
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "root_text: '1-SOURCES/Text/chants/Sīvali Paritta.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://webuddhist.com/'",
+    "toc: 1 headers found"
+  ],
+  "warnings": [
+    "contributions: author/translator missing — ignored for now"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "hi": "सीवली परित्त"
+    },
+    "alt_titles": [
+      {
+        "hi": "Sīvali Paritta"
+      }
+    ],
+    "language": "hi",
+    "commentary_of": null,
+    "translation_of": "Jg73w7ay3kxsunOzoL3ph",
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}

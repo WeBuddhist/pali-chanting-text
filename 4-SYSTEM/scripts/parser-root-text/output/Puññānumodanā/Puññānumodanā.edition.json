@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Dukkhappattā ca niddukkhā, bhayappattā ca nibbhayā.Sokappattā ca nissokā, hontu sabbepi pāṇino. ॥1॥Etāvatā ca amhehi, sambhataṃ puññasampadaṃ.Sabbe devā anumodantu, sabbasampatti siddhiyā. ॥2॥Dānaṃ dadantu saddhāya, sīlaṃ rakkhantu sabbadā.Bhāvanābhiratā hontu, gacchantu devatāgatā. ॥3॥Sabbe buddhā balappattā, paccekānañca yaṃ balaṃ.Arahantānañca tejena, rakkhaṃ bandhāmi sabbaso. ॥4॥Sabbe dhammā balappattā, paccekānañca yaṃ balaṃ.Arahantānañca tejena, rakkhaṃ bandhāmi sabbaso. ॥5॥Sabbe saṅghā balappattā, paccekānañca yaṃ balaṃ.Arahantānañca tejena, rakkhaṃ bandhāmi sabbaso. ॥6॥Ākāsaṭṭhā ca bhummaṭṭhā, devā nāgā mahiddhikā.Puññaṃ taṃ anumoditvā, ciraṃ rakkhantu buddhasāsanaṃ. ॥7॥Ākāsaṭṭhā ca bhummaṭṭhā, devā nāgā mahiddhikā.Puññaṃ taṃ anumoditvā, ciraṃ rakkhantu dhammadesanaṃ. ॥8॥Ākāsaṭṭhā ca bhummaṭṭhā, devā nāgā mahiddhikā.Puññaṃ taṃ anumoditvā, ciraṃ rakkhantu maṃ parittaṃ. ॥9॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 51
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 51,
+            "end": 99
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 99,
+            "end": 142
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 142,
+            "end": 192
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 192,
+            "end": 240
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 240,
+            "end": 287
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 287,
+            "end": 335
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 335,
+            "end": 386
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 386,
+            "end": 434
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 434,
+            "end": 485
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 485,
+            "end": 533
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 533,
+            "end": 584
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 584,
+            "end": 630
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 630,
+            "end": 687
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 687,
+            "end": 733
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 733,
+            "end": 790
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 790,
+            "end": 836
+          }
+        ],
+        "type": "verse",
+        "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 836,
+            "end": 892
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      }
+    ]
+  }
+}

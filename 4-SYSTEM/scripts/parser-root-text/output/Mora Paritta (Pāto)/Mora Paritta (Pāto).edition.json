@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Udetayaṃ cakkhumā ekarājā, harissavaṇṇo pathavippabhāso.Taṃ taṃ namassāmi harissavaṇṇaṃ pathavippabhāsaṃ,Tayajja guttā viharemu divasaṃ. ॥1॥Ye brāhmaṇā vedagū sabbadhamme,Te me namo te ca maṃ pālayantu.Namatthu buddhānaṃ namatthu bodhiyā,Namo vimuttānaṃ namo vimuttiyā.Imaṃ so parittaṃ katvā, moro carati esanā. ॥2॥",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 56
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 56,
+            "end": 105
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 105,
+            "end": 140
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 140,
+            "end": 171
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 171,
+            "end": 202
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 202,
+            "end": 238
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 238,
+            "end": 269
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 269,
+            "end": 315
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      }
+    ]
+  }
+}
