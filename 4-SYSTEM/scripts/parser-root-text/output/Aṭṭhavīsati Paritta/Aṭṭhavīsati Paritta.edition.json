@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://webuddhist.com/"
+  },
+  "content": "Taṇhaṅkaro mahāvīro, Medhaṅkaro mahāyaso.Saraṇaṅkaro lokahito, Dīpaṅkaro jutindriyo.Koṇḍañño janapāmokkho, Maṅgalo parisāsabho.Sumano sumano dhīro, Revato rati vaṅgano.Sobhito guṇasampanno, Anomadassī januttamo.Padumo loka pajjoto, Nārado vara sārathī.Padumuttaro sattasāro, Sumedho aggapuggalo.Sujāto sabba lokaggo, Piyadassī narāsabho.Atthadassī kāruṇiko, Dhammadassī tamonudo.Siddhattho asamo loke, Tisso varada saṃvaro.Phusso varadasambuddho, Vipassī ca anupamo.Sikhī sabbahito satthā, Vessabhū sukhadāyako.Kakusandho satyavāho, Koṇāgamano raṇaṃjaho.Kassapo siri sampanno, Gotamo sakyapuṅgavo.Tesaṃ saccena sīlena, khanti metta balena ca.Tepi tvaṃ anurakkhantu, ārogyena sukhena cāti.",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 41
+          }
+        ],
+        "type": "verse",
+        "reference": "0-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 41,
+            "end": 84
+          }
+        ],
+        "type": "verse",
+        "reference": "0-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 84,
+            "end": 127
+          }
+        ],
+        "type": "verse",
+        "reference": "0-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 127,
+            "end": 168
+          }
+        ],
+        "type": "verse",
+        "reference": "0-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 168,
+            "end": 211
+          }
+        ],
+        "type": "verse",
+        "reference": "0-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 211,
+            "end": 252
+          }
+        ],
+        "type": "verse",
+        "reference": "0-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 252,
+            "end": 295
+          }
+        ],
+        "type": "verse",
+        "reference": "0-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 295,
+            "end": 337
+          }
+        ],
+        "type": "verse",
+        "reference": "0-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 337,
+            "end": 379
+          }
+        ],
+        "type": "verse",
+        "reference": "0-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 379,
+            "end": 423
+          }
+        ],
+        "type": "verse",
+        "reference": "0-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 423,
+            "end": 466
+          }
+        ],
+        "type": "verse",
+        "reference": "0-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 466,
+            "end": 511
+          }
+        ],
+        "type": "verse",
+        "reference": "0-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 511,
+            "end": 554
+          }
+        ],
+        "type": "verse",
+        "reference": "0-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 554,
+            "end": 597
+          }
+        ],
+        "type": "verse",
+        "reference": "0-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 597,
+            "end": 642
+          }
+        ],
+        "type": "verse",
+        "reference": "0-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 642,
+            "end": 688
+          }
+        ],
+        "type": "verse",
+        "reference": "0-16"
+      }
+    ]
+  }
+}
