@@ -1,32 +1,34 @@
 {
   "status": "ok",
-  "source": "/sessions/rcw-01piugyxn7jxzyechvvznqsq/mnt/pali-chanting-text/1-SOURCES/Translations/बुद्ध वन्दना.md",
-  "validated_at": "2026-09-21T09:19:03.292832+00:00",
+  "source": "/sessions/rcw-01piugyxn7jxzyechvvznqsq/mnt/pali-chanting-text/1-SOURCES/Translations/प्रतीत्यसमुत्पाद.md",
+  "validated_at": "2026-09-21T09:18:58.497314+00:00",
   "notes": [
     "wiki: not set (optional)",
     "date: not set (optional)",
     "commentary_of: not set (optional)",
-    "translation_of: not set (optional)",
-    "root_text: '1-SOURCES\\\\Text\\\\chants\\\\Buddha Vandanā.md'",
+    "root_text: '1-SOURCES/Text/chants/Paṭiccasamuppāda.md'",
     "tag_ids: not set (optional)",
     "source: source = 'https://webuddhist.com/'",
     "toc: 1 headers found"
   ],
   "warnings": [
-    "contributions: author/translator missing — ignored for now",
-    "alt_titles: missing — ignored for now"
+    "contributions: author/translator missing — ignored for now"
   ],
   "text_input": {
     "bdrc": null,
     "wiki": null,
     "date": null,
     "title": {
-      "hi": "बुद्ध वन्दना"
+      "hi": "प्रतीत्यसमुत्पाद"
     },
-    "alt_titles": null,
+    "alt_titles": [
+      {
+        "hi": "Paṭiccasamuppāda"
+      }
+    ],
     "language": "hi",
     "commentary_of": null,
-    "translation_of": null,
+    "translation_of": "gegvZUWqD78zgQZ293CAf",
     "category_id": "LCorCb2K98p3TICt3UCDm",
     "license": "public",
     "contributions": null,
