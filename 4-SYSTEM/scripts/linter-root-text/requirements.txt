@@ -1,3 +1,0 @@
-PyYAML>=6.0
-rdflib>=6.0
-pyewts>=0.2.0
