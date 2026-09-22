@@ -3,14 +3,14 @@
     "type": "critical",
     "source": "https://webuddhist.com/"
   },
-  "content": "Buddhaṃ saraṇaṃ gacchāmi.Dhammaṃ saraṇaṃ gacchāmi.Saṅghaṃ saraṇaṃ gacchāmi.Dutiyampi Buddhaṃ saraṇaṃ gacchāmi.Dutiyampi Dhammaṃ saraṇaṃ gacchāmi.Dutiyampi Saṅghaṃ saraṇaṃ gacchāmi.Tatiyampi Buddhaṃ saraṇaṃ gacchāmi.Tatiyampi Dhammaṃ saraṇaṃ gacchāmi.Tatiyampi Saṅghaṃ saraṇaṃ gacchāmi.PañcasīlaPānātipātā veramaṇī sikkhāpadaṃ samādiyāmi.Adinnādānā veramaṇī sikkhāpadaṃ samādiyāmi.Kāmesu micchācārā veramaṇī sikkhāpadaṃ samādiyāmi.Musāvādā veramaṇī sikkhāpadaṃ samādiyāmi.Surāmeraya-majja-pamādaṭṭhānā veramaṇī sikkhāpadaṃ samādiyāmi.Āma Bhante.Sādhu! Sādhu! Sādhu!",
+  "content": "Buddha VandanāIti pi so Bhagavā Arahaṃ Sammāsambuddho.Vijjācaraṇasampanno Sugato Lokavidū.Anuttaro Purisadammasārathī.Satthā Devamanussānaṃ Buddho Bhagavāti.Dhamma VandanāSvākkhāto Bhagavatā Dhammo.Sandiṭṭhiko Akāliko.Ehipassiko Opanayiko.Paccattaṃ Veditabbo Viññūhīti.Saṅgha VandanāSupaṭipanno Bhagavato Sāvakasaṅgho.Ujupaṭipanno Bhagavato Sāvakasaṅgho.Ñāyapaṭipanno Bhagavato Sāvakasaṅgho.Sāmīcipaṭipanno Bhagavato Sāvakasaṅgho.Yadidaṃ Cattāri Purisayugāni, Aṭṭha Purisapuggalā.Esa Bhagavato Sāvakasaṅgho.Āhuneyyo Pāhuneyyo Dakkhiṇeyyo Añjalikaraṇīyo.Anuttaraṃ Puññakkhettaṃ Lokassāti.Sādhu! Sādhu! Sādhu!",
   "segmentation": {
     "segments": [
       {
         "lines": [
           {
             "start": 0,
-            "end": 25
+            "end": 14
           }
         ],
         "type": "verse",
@@ -19,8 +19,8 @@
       {
         "lines": [
           {
-            "start": 25,
-            "end": 50
+            "start": 14,
+            "end": 54
           }
         ],
         "type": "verse",
@@ -29,8 +29,8 @@
       {
         "lines": [
           {
-            "start": 50,
-            "end": 75
+            "start": 54,
+            "end": 90
           }
         ],
         "type": "verse",
@@ -39,8 +39,8 @@
       {
         "lines": [
           {
-            "start": 75,
-            "end": 110
+            "start": 90,
+            "end": 118
           }
         ],
         "type": "verse",
@@ -49,8 +49,8 @@
       {
         "lines": [
           {
-            "start": 110,
-            "end": 145
+            "start": 118,
+            "end": 157
           }
         ],
         "type": "verse",
@@ -59,8 +59,8 @@
       {
         "lines": [
           {
-            "start": 145,
-            "end": 180
+            "start": 157,
+            "end": 171
           }
         ],
         "type": "verse",
@@ -69,8 +69,8 @@
       {
         "lines": [
           {
-            "start": 180,
-            "end": 215
+            "start": 171,
+            "end": 198
           }
         ],
         "type": "verse",
@@ -79,8 +79,8 @@
       {
         "lines": [
           {
-            "start": 215,
-            "end": 250
+            "start": 198,
+            "end": 218
           }
         ],
         "type": "verse",
@@ -89,8 +89,8 @@
       {
         "lines": [
           {
-            "start": 250,
-            "end": 285
+            "start": 218,
+            "end": 239
           }
         ],
         "type": "verse",
@@ -99,8 +99,8 @@
       {
         "lines": [
           {
-            "start": 285,
-            "end": 294
+            "start": 239,
+            "end": 269
           }
         ],
         "type": "verse",
@@ -109,8 +109,8 @@
       {
         "lines": [
           {
-            "start": 294,
-            "end": 337
+            "start": 269,
+            "end": 283
           }
         ],
         "type": "verse",
@@ -119,8 +119,8 @@
       {
         "lines": [
           {
-            "start": 337,
-            "end": 380
+            "start": 283,
+            "end": 318
           }
         ],
         "type": "verse",
@@ -129,8 +129,8 @@
       {
         "lines": [
           {
-            "start": 380,
-            "end": 430
+            "start": 318,
+            "end": 354
           }
         ],
         "type": "verse",
@@ -139,8 +139,8 @@
       {
         "lines": [
           {
-            "start": 430,
-            "end": 471
+            "start": 354,
+            "end": 391
           }
         ],
         "type": "verse",
@@ -149,8 +149,8 @@
       {
         "lines": [
           {
-            "start": 471,
-            "end": 533
+            "start": 391,
+            "end": 430
           }
         ],
         "type": "verse",
@@ -159,8 +159,8 @@
       {
         "lines": [
           {
-            "start": 533,
-            "end": 544
+            "start": 430,
+            "end": 480
           }
         ],
         "type": "verse",
@@ -169,12 +169,42 @@
       {
         "lines": [
           {
-            "start": 544,
-            "end": 564
+            "start": 480,
+            "end": 507
           }
         ],
         "type": "verse",
         "reference": "0-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 507,
+            "end": 553
+          }
+        ],
+        "type": "verse",
+        "reference": "0-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 553,
+            "end": 587
+          }
+        ],
+        "type": "verse",
+        "reference": "0-19"
+      },
+      {
+        "lines": [
+          {
+            "start": 587,
+            "end": 607
+          }
+        ],
+        "type": "verse",
+        "reference": "0-20"
       }
     ]
   }

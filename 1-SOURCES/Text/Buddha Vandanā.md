@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 16GlLWxg3vvYUPte6S3sa
-edition_id: w92XbiEvunK7YYKxRLUZr
-toc_id: 6VyFJCcviMIuq6kLn8nWh
+text_id: 1OnAqinSKzDBTxS1gVQZK
+edition_id: t7oVpfyP7vyhKIlzs0ktv
+toc_id: ilGvZJisbw7VxGef5cRj4
 ---
 
 # Buddha Vandanā ^0

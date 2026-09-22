@@ -3,7 +3,7 @@
     "type": "critical",
     "source": "https://webuddhist.com/"
   },
-  "content": "Arahaṃ Sammā Sambuddho Bhagavā Buddhaṃ Bhagavantaṃ abhivādemi.Svākkhāto Bhagavatā Dhammo, Dhammaṃ namassāmi.Supaṭipanno Bhagavato Sāvaka Saṅgho, Saṅghaṃ namāmi.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Buddhaṃ Saraṇaṃ Gacchāmi.Dhammaṃ Saraṇaṃ Gacchāmi.Saṅghaṃ Saraṇaṃ Gacchāmi.Dutiyampi Buddhaṃ Saraṇaṃ Gacchāmi.Dutiyampi Dhammaṃ Saraṇaṃ Gacchāmi.Dutiyampi Saṅghaṃ Saraṇaṃ Gacchāmi.Tatiyampi Buddhaṃ Saraṇaṃ Gacchāmi.Tatiyampi Dhammaṃ Saraṇaṃ Gacchāmi.Tatiyampi Saṅghaṃ Saraṇaṃ Gacchāmi.Bhante: Tisaraṇagamanaṃ Sampuṇṇaṃ.<b>Aṭṭha Sīlāni</b>Pāṇātipātā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Adinnādānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Abrahmacariyā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Musāvādā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Surā-Meraya-Majja-Pamādaṭṭhānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Vikāla-Bhojanā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Nacca-Gīta-Vādita-Visūka-Dassanā, Mālā-Gandha-Vilepana-Dhāraṇa-Maṇḍana-Vibhūsanaṭṭhānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Uccāsayanā-Mahāsayanā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Bhante: Tisaraṇena Saha Aṭṭhaṅga-Samannāgataṃ Uposatha Sīlaṃ Dhammaṃ Sādhukaṃ Surakkhitaṃ Katvā Appamādena Sampādetha.Upāsaka: Āma Bhante. Sādhu, Sādhu, Sādhu.",
+  "content": "Arahaṃ Sammā Sambuddho Bhagavā Buddhaṃ Bhagavantaṃ abhivādemi.Svākkhāto Bhagavatā Dhammo, Dhammaṃ namassāmi.Supaṭipanno Bhagavato Sāvaka Saṅgho, Saṅghaṃ namāmi.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Namo Tassa Bhagavato Arahato Sammāsambuddhassa.Buddhaṃ Saraṇaṃ Gacchāmi.Dhammaṃ Saraṇaṃ Gacchāmi.Saṅghaṃ Saraṇaṃ Gacchāmi.Dutiyampi Buddhaṃ Saraṇaṃ Gacchāmi.Dutiyampi Dhammaṃ Saraṇaṃ Gacchāmi.Dutiyampi Saṅghaṃ Saraṇaṃ Gacchāmi.Tatiyampi Buddhaṃ Saraṇaṃ Gacchāmi.Tatiyampi Dhammaṃ Saraṇaṃ Gacchāmi.Tatiyampi Saṅghaṃ Saraṇaṃ Gacchāmi.Bhante: Tisaraṇagamanaṃ Sampuṇṇaṃ.Aṭṭha SīlāniPāṇātipātā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Adinnādānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Abrahmacariyā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Musāvādā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Surā-Meraya-Majja-Pamādaṭṭhānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Vikāla-Bhojanā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Nacca-Gīta-Vādita-Visūka-Dassanā, Mālā-Gandha-Vilepana-Dhāraṇa-Maṇḍana-Vibhūsanaṭṭhānā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Uccāsayanā-Mahāsayanā Veramaṇī Sikkhāpadaṃ Samādiyāmi.Bhante: Tisaraṇena Saha Aṭṭhaṅga-Samannāgataṃ Uposatha Sīlaṃ Dhammaṃ Sādhukaṃ Surakkhitaṃ Katvā Appamādena Sampādetha.Upāsaka: Āma Bhante. Sādhu, Sādhu, Sādhu.",
   "segmentation": {
     "segments": [
       {
@@ -170,7 +170,7 @@
         "lines": [
           {
             "start": 620,
-            "end": 639
+            "end": 632
           }
         ],
         "type": "verse",
@@ -179,8 +179,8 @@
       {
         "lines": [
           {
-            "start": 639,
-            "end": 682
+            "start": 632,
+            "end": 675
           }
         ],
         "type": "verse",
@@ -189,8 +189,8 @@
       {
         "lines": [
           {
-            "start": 682,
-            "end": 725
+            "start": 675,
+            "end": 718
           }
         ],
         "type": "verse",
@@ -199,8 +199,8 @@
       {
         "lines": [
           {
-            "start": 725,
-            "end": 771
+            "start": 718,
+            "end": 764
           }
         ],
         "type": "verse",
@@ -209,8 +209,8 @@
       {
         "lines": [
           {
-            "start": 771,
-            "end": 812
+            "start": 764,
+            "end": 805
           }
         ],
         "type": "verse",
@@ -219,8 +219,8 @@
       {
         "lines": [
           {
-            "start": 812,
-            "end": 875
+            "start": 805,
+            "end": 868
           }
         ],
         "type": "verse",
@@ -229,8 +229,8 @@
       {
         "lines": [
           {
-            "start": 875,
-            "end": 922
+            "start": 868,
+            "end": 915
           }
         ],
         "type": "verse",
@@ -239,8 +239,8 @@
       {
         "lines": [
           {
-            "start": 922,
-            "end": 1041
+            "start": 915,
+            "end": 1034
           }
         ],
         "type": "verse",
@@ -249,8 +249,8 @@
       {
         "lines": [
           {
-            "start": 1041,
-            "end": 1095
+            "start": 1034,
+            "end": 1088
           }
         ],
         "type": "verse",
@@ -259,8 +259,8 @@
       {
         "lines": [
           {
-            "start": 1095,
-            "end": 1213
+            "start": 1088,
+            "end": 1206
           }
         ],
         "type": "verse",
@@ -269,8 +269,8 @@
       {
         "lines": [
           {
-            "start": 1213,
-            "end": 1254
+            "start": 1206,
+            "end": 1247
           }
         ],
         "type": "verse",
