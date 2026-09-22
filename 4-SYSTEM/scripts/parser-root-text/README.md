@@ -60,5 +60,5 @@ python3 4-SYSTEM\scripts\parser-root-text\parser.py "1-SOURCES\Text\BCAV08_SH_sk
 - Blocks without a reference marker (`^ref`) are skipped with a warning
 - Pure transclusion blocks (`![[...]]` only) are silently skipped — they are used for alignment, not content
 - Markdown headings (`#`, `##`, …) are **structural only** — their text is not written into the edition `content`. They carry the TOC: each section's span runs from the start of its own content to the start of the next heading at the same or a shallower level
-- A line that both starts and ends with `**` is emitted as `<b>…</b>` in the edition content. Heading text has the `**` markers stripped instead, so TOC titles stay plain
+- Edition content is plain text. A line that both starts and ends with `**` has the markers stripped — `**Dhamma Vandanā** ^0-6` is stored as `Dhamma Vandanā` — and heading text is treated the same way, so TOC titles stay plain too. No HTML is ever emitted
 - Tibetan TOC titles in Wylie are auto-converted to Unicode

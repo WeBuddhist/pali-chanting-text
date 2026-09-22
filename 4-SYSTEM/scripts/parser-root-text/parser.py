@@ -49,15 +49,15 @@ def _out_path(stem, kind):
     return out_dir / f"{stem}.{kind}.json"
 
 
-def _apply_bold(text, as_tag=True):
-    """Whole-span bold: ``**X**`` -> ``<b>X</b>``.
+def _strip_bold(text):
+    """Drop whole-span Markdown bold: ``**X**`` -> ``X``.
 
-    Only fires when the text both starts and ends with ``**``; anything else
-    is returned untouched. Applied before character offsets are computed, so
-    the segmentation spans always describe the text as emitted.
-
-    ``as_tag=False`` strips the markers without emitting a tag — used for
-    heading text, which becomes a plain TOC label rather than content.
+    The edition content is plain text — no HTML and no Markdown markup — so a
+    bolded section label such as ``**Dhamma Vandanā** ^0-6`` is stored as just
+    ``Dhamma Vandanā``. Only fires when the text both starts and ends with
+    ``**``; a stray ``**`` elsewhere in a line is left as written. Applied
+    before character offsets are computed, so the segmentation spans always
+    describe the text as emitted.
     """
     if not text:
         return text
@@ -65,7 +65,7 @@ def _apply_bold(text, as_tag=True):
     if len(stripped) > 4 and stripped.startswith("**") and stripped.endswith("**"):
         inner = stripped[2:-2]
         if inner.strip():
-            return "<b>" + inner + "</b>" if as_tag else inner
+            return inner
     return text
 
 
@@ -314,7 +314,7 @@ def _build_content_and_segmentation(blocks, doc_default):
                 continue
             heading_list.append({
                 "reference": ref_no_caret,
-                "title": _apply_bold(text, as_tag=False),
+                "title": _strip_bold(text),
                 "level": level or 1,
                 "content_start": pos,
             })
@@ -331,7 +331,7 @@ def _build_content_and_segmentation(blocks, doc_default):
                     text = text[:m.start()].rstrip()
                 if not text:
                     continue
-                text = _apply_bold(text)
+                text = _strip_bold(text)
                 start = pos
                 parts.append(text)
                 pos += len(text)
