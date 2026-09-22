@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: VVAAxLLRYE62BvXBwuHVd
-edition_id: slQ5taPw46yWOplF7NFuq
-toc_id: Eyt0I4SlDeOWkOzOnI45P
+text_id: O4sHMF3VeP8Oehj0d7lFU
+edition_id: 39RmO3NOGOg29CwIT00cd
+toc_id: To0xCR3syctSqCTVnfCVS
 ---
 
 # Tiratana Vandanā ^0
