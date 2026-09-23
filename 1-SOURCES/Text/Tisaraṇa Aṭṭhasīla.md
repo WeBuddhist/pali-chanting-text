@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 6ZbOOyNAywUtF1Majw9lw
-edition_id: VDZzaeDmSmXqiCCshRpVo
-toc_id: PZPnU3bNJtVxOnC8JKW8Y
+text_id: ERRwNaEbAc9t1rj8hXfX4
+edition_id: AM93ajDmf2MWVW1B6yULq
+toc_id: ABuJwZPPlRkCfFfmE0tyD
 ---
 
 # Tisaraṇa Aṭṭhasīla ^0
