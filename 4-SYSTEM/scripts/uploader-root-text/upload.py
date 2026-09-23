@@ -261,6 +261,11 @@ def _delete(url, api_key, dry_run=False):
         with urllib.request.urlopen(req, timeout=120) as resp:
             return resp.status
     except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            # Already gone (deleted by hand, or an earlier --recreate that
+            # stopped part-way). Nothing to delete, so carry on and re-create.
+            print("        HTTP 404 — already deleted, continuing")
+            return 404
         detail = exc.read().decode("utf-8", errors="replace")
         raise SystemExit(
             f"ERROR DELETE {url}\n"
