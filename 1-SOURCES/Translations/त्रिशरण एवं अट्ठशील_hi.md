@@ -11,9 +11,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: 
-edition_id: 
-toc_id: 
+text_id: wl9Aw8pcGt6LE4e9brznw
+edition_id: 8Wu5rgS4TWhygb5lHZXrt
+toc_id: x03WaUaN79GG3swytZ5L2
 ---
 
 
