@@ -9,9 +9,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: SyisMsukhhgXHX0vvnud2
-edition_id: U0RlyyaJsKNcKcAAtQUur
-toc_id: dem7KyFhNRA65fZ3C07bE
+text_id: oAwRbxyBDYmfLWncepgTg
+edition_id: fMZUCEo1BzwPmtonyLo9z
+toc_id: zRdJYjxGAkLTKwoDBFIOH
 ---
 
 # Tisaraṇa-Pañcasīla ^0

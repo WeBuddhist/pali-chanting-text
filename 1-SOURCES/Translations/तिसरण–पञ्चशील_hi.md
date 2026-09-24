@@ -11,9 +11,9 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: F3BdVKu8ao7B33DAT8dVA
-edition_id: D627UPAMx2AZHM9TGaerh
-toc_id: xpcjvYmkLKC0sYI7LJett
+text_id: 4amfk9GLluzn1ZijtW3dz
+edition_id: grBHFlJcjtYm34lYxFyzX
+toc_id: HjfkGTkTvINnPdydEgQkQ
 ---
 
 # तिसरण–पञ्चशील ^0
