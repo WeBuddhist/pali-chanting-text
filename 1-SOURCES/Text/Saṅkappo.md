@@ -1,5 +1,5 @@
 ---
-title: Saṅkappo
+title: Saṅkappo (pratah / Sāyaṃkālīna)
 alt_titles: सङ्कप्पो
 language: Pali
 file_type: root-text
@@ -9,8 +9,8 @@ source: https://webuddhist.com/
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 bdrc_work_id: 
-text_id: J5E0A1TUwdag2zxjSD4SS
-edition_id: PRbmDkRJj7BfzBjuCMzHJ
+text_id: 2xvdGX0TMU8g2nLyogoKw
+edition_id: 24L8siXilLp0f3X599qGp
 toc_id: QEie8TOU8ZwY1nrrmPTaF
 ---
 
